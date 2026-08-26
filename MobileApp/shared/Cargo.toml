@@ -1,0 +1,42 @@
+[package]
+name = "termirror_core"
+version = "0.1.0"
+edition = "2021"
+description = "TermMirror 终端核心：SSH 会话、终端状态机、输入编码等三端共享逻辑"
+
+# 独立 workspace：与仓库根 Cargo.toml（PCServer 相关）隔离
+[workspace]
+
+[lib]
+# cdylib：供 Android / HarmonyOS 原生层通过 C ABI 加载动态库
+# staticlib：供 iOS 静态链接到 Framework
+# rlib：供 Rust 侧单测与未来的 Rust 二进制复用
+crate-type = ["cdylib", "rlib", "staticlib"]
+
+[dependencies]
+# SSH 会话能力：libssh2 的 Rust 绑定。
+# 交叉编译到 HarmonyOS 时通过 pkg-config 引用预编译的 libssh2.a + libmbedcrypto.a，
+# 详见 scripts/build-ohos.sh 与 pkgconfig/ 目录。
+# Android / iOS 使用 vendored-openssl 特性静态编译 OpenSSL + libssh2，无需系统库。
+ssh2 = "0.9"
+# 直接依赖 libssh2-sys（与 ssh2 内部同一版本）：用于在 ssh2 初始化前
+# 手动完整调用 libssh2_init(0)，规避 mbedtls 后端下 NO_CRYPTO 不播种熵源的崩溃
+libssh2-sys = "0.3"
+libc = "0.2"
+# 配置模型序列化：YAML 持久化（serde_yaml），FFI 边界 JSON（serde_json）
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
+serde_json = "1"
+# 日志时间戳（本地时区，格式 [YYYY-MM-DD HH:MM:SS.mmm +08:00]）
+# 注意：不能开 `clock` 特性——它会拉入 iana-time-zone，在 OHOS 上强链
+# libtime_service_ndk.so（NDK sysroot 有桩库，但设备上没有），导致整个
+# libtermirror_core.so dlopen 失败。本地时间改用 libc localtime_r 获取（见 log 模块）。
+chrono = { version = "0.4", default-features = false, features = ["std"] }
+# 终端列宽对齐：CJK 全角字符在终端网格占 2 列，与远端 PTY 的 wcwidth 规则一致
+unicode-width = "0.2"
+
+[features]
+default = []
+# Android / iOS 静态编译 OpenSSL + libssh2，避免依赖系统 SSL 库。
+# HarmonyOS 使用 pkg-config 引用预编译 mbedtls，不使用此特性。
+vendored-openssl = ["ssh2/vendored-openssl", "libssh2-sys/vendored-openssl"]

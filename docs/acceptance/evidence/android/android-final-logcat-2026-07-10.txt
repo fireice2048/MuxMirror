@@ -1,0 +1,852 @@
+--------- beginning of main
+07-10 01:02:08.060 I/FraudProtectUtils( 1563): Not in testing population, skipping local test bank apps. [CONTEXT service_id=469 ]
+07-10 01:02:08.060 I/FraudProtectUtils( 1563): (REDACTED) Latest bank app list size: %d, %s isBankApp: false
+07-10 01:02:08.060 I/PackageInstallIntentOp( 1563): (REDACTED) Package %s is not a bank app. Skipping updates.
+07-10 01:02:08.060 D/BoundBrokerSvc( 1226): onRebind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+07-10 01:02:08.068 I/system_server(  677): AssetManager2(0xb4000072c30f5a38) locale list changing from [] to [en-US]
+07-10 01:02:08.072 W/SignedPackage(  677): Cannot get ApplicationInfo for package: com.google.android.devicelockcontroller
+07-10 01:02:08.073 W/adua    ( 1771): Abort, client detached.
+07-10 01:02:08.073 W/adua    ( 1771): Abort, client detached.
+07-10 01:02:08.079 W/HWUI    ( 1057): Image decoding logging dropped!
+07-10 01:02:08.080 D/AlphabeticIndexCompat( 1057): computeSectionName: cs: ATTACH sectionName: A
+07-10 01:02:08.080 I/gle.android.gms( 1563): AssetManager2(0xb4000072c3070a18) locale list changing from [] to [en-US]
+07-10 01:02:08.081 W/adua    ( 1771): Abort, client detached.
+07-10 01:02:08.082 I/system_server(  677): AssetManager2(0xb4000072c30f0f38) locale list changing from [] to [en-US]
+07-10 01:02:08.105 I/system_server(  677): AssetManager2(0xb4000072c30ef318) locale list changing from [] to [en-US]
+07-10 01:02:08.105 I/Finsky  ( 1737): [2] akvm - Received: android.intent.action.PACKAGE_ADDED, [R_udN6R9WqqkGc9s-f8e3egn1BLzBk0bNfEdfeICNZQ]
+07-10 01:02:08.119 I/system_server(  677): AssetManager2(0xb4000072c30f2e78) locale list changing from [] to [en-US]
+07-10 01:02:08.119 I/Auth    ( 1563): (REDACTED) [SupervisedAccountIntentOperation] onHandleIntent: %s
+07-10 01:02:08.121 I/Finsky  ( 1737): [2] akvm - Deduping intent android.intent.action.PACKAGE_ADDED
+07-10 01:02:08.129 I/Finsky  ( 1737): [2] akvm - Received: android.intent.action.PACKAGE_ADDED, [R_udN6R9WqqkGc9s-f8e3egn1BLzBk0bNfEdfeICNZQ]
+07-10 01:02:08.133 I/Finsky  ( 1737): [2] akvm - Deduping intent android.intent.action.PACKAGE_ADDED
+--------- beginning of system
+07-10 01:02:08.134 D/ActivityThread( 1737): Package [com.attach.mobile] reported as REPLACED, but missing application info. Assuming REMOVED.
+07-10 01:02:08.137 I/Finsky  ( 1737): [43] RECEIVER_PACKAGE_MONITOR#logWorkEndAndFinishGoAsync: SUCCESS
+07-10 01:02:08.138 W/AppInstallOperation( 1563): FDL Migration::InstallIntentOperation by FDL Module [CONTEXT service_id=77 ]
+07-10 01:02:08.138 I/FraudProtectUtils( 1563): Not in testing population, skipping local test bank apps. [CONTEXT service_id=469 ]
+07-10 01:02:08.139 I/FraudProtectUtils( 1563): (REDACTED) Latest bank app list size: %d, %s isBankApp: false
+07-10 01:02:08.139 I/PackageInstallIntentOp( 1563): (REDACTED) Package %s is not a bank app. Skipping updates.
+07-10 01:02:08.144 D/AllAppsStore( 1057): setApps: apps.length=20
+07-10 01:02:08.144 D/AllAppsStore( 1057): notifyUpdate: notifying listeners
+07-10 01:02:08.144 D/ActivityAllAppsContainerView( 1057): onAppsUpdated; number of apps: 20
+07-10 01:02:08.144 D/ActivityAllAppsContainerView( 1057): rebindAdapters: force: false
+07-10 01:02:08.144 D/ActivityAllAppsContainerView( 1057): rebindAdapters: Not needed.
+07-10 01:02:08.144 D/StatsLog( 1057): LAUNCHER_ALLAPPS_COUNT
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): Clearing FastScrollerSections.
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): Adding apps with sections. HasPrivateApps: false
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: A with appInfoTitle: ATTACH
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: D with appInfoTitle: Drive
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): Adding FastScrollSection duplicate to scroll to the bottom.
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): Clearing FastScrollerSections.
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): Adding apps with sections. HasPrivateApps: false
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: A with appInfoTitle: ATTACH
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: D with appInfoTitle: Drive
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+07-10 01:02:08.144 D/AlphabeticalAppsList( 1057): Adding FastScrollSection duplicate to scroll to the bottom.
+07-10 01:02:08.147 D/b/387844520( 1057): getOutlineOffsetX: measured width = 173, mNormalizedIconSize = 159, last updated width = 173
+07-10 01:02:08.150 I/system_server(  677): AssetManager2(0xb4000072c30f0c18) locale list changing from [] to [en-US]
+07-10 01:02:08.150 D/SsBaseTemplateCard( 1057): No text view can be set up
+07-10 01:02:08.150 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:08.150 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:08.150 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:08.150 I/SsBaseTemplateCard( 1057): Secondary card pane is null
+07-10 01:02:08.170 D/BoundBrokerSvc( 1563): onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS xflg=0x4 pkg=com.google.android.gms }
+07-10 01:02:08.170 D/BoundBrokerSvc( 1563): Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS xflg=0x4 pkg=com.google.android.gms }
+07-10 01:02:08.170 I/system_server(  677): Background concurrent mark compact GC freed 17MB AllocSpace bytes, 23(448KB) LOS objects, 40% free, 35MB/59MB, paused 51.280ms,2.344ms total 849.195ms
+07-10 01:02:08.173 W/System  (  677): A resource failed to call close. 
+07-10 01:02:08.173 I/NearbyDiscovery( 1563): (REDACTED) processGrantSlicePermission: %s
+07-10 01:02:08.181 I/gle.android.gms( 1563): AssetManager2(0xb4000072c30703d8) locale list changing from [] to [en-US]
+07-10 01:02:08.206 I/ActivityManager(  677): Force stopping com.attach.mobile appid=10212 user=0: from pid 4747
+07-10 01:02:08.206 I/WindowManager(  677):   Force removing ActivityRecord{80713470 u0 com.attach.mobile/.android.MainActivity t11 f} isExiting}
+07-10 01:02:08.206 W/WindowManager(  677): removeAppToken: Attempted to remove non-existing token: Token{691d0ac ActivityRecord{80713470 u0 com.attach.mobile/.android.MainActivity t11 f} isExiting}}
+07-10 01:02:08.208 W/SQLiteLog( 1563): (28) double-quoted string literal: "com.attach.mobile"
+07-10 01:02:08.212 D/CarrierSvcBindHelper( 1039): onHandleForceStop: [com.attach.mobile]
+07-10 01:02:08.212 D/CarrierSvcBindHelper( 1039): No carrier app for: 0
+07-10 01:02:08.215 I/system_server(  677): AssetManager2(0xb4000072c30fa538) locale list changing from [] to [en-US]
+07-10 01:02:08.215 I/system_server(  677): AssetManager2(0xb4000072c30fd418) locale list changing from [] to [en-US]
+07-10 01:02:08.242 I/Icing   ( 1563): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+07-10 01:02:08.247 I/Finsky:background( 2284): [2] Memory trim requested to level 40
+07-10 01:02:08.248 D/BoundBrokerSvc( 1563): onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+07-10 01:02:08.248 D/BoundBrokerSvc( 1563): Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+07-10 01:02:08.259 I/Finsky  ( 1737): [2] Memory trim requested to level 40
+07-10 01:02:08.259 I/Finsky  ( 1737): [2] Flushing in-memory image cache
+07-10 01:02:08.275 V/SafetySourceDataValidat(  677): Package: com.android.vending has expected signature
+07-10 01:02:08.275 V/SafetySourceDataValidat(  677): Package: com.android.vending has expected signature
+07-10 01:02:08.298 D/BackgroundInstallControlService(  677): Package event received: 0
+07-10 01:02:08.298 D/BackgroundInstallControlService(  677): Package event received: 0
+07-10 01:02:08.299 I/Icing   ( 1563): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+07-10 01:02:08.300 W/ActivityTaskManager(  677): callingPackage for (uid=2000, pid=4753) has no WPC
+07-10 01:02:08.301 V/GrammaticalInflectionUtils(  677): AttributionSource: android.content.AttributionSource@e4af1813 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-10 01:02:08.301 W/OptProp (  677): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+07-10 01:02:08.301 W/OptProp (  677): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+07-10 01:02:08.301 W/OptProp (  677): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+07-10 01:02:08.301 W/OptProp (  677): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+07-10 01:02:08.307 I/Icing   ( 1563): Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+07-10 01:02:08.308 W/OptProp (  677): Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+07-10 01:02:08.310 I/ActivityTaskManager(  677): Add Task{2d8de5f #11 type=standard A=10212:com.attach.mobile} to hidden list because adding Task{5dcc9ee #12 type=standard A=10212:com.attach.mobile}
+07-10 01:02:08.311 I/ActivityTaskManager(  677): START u0 {flg=0x10000000 xflg=0x5 cmp=com.attach.mobile/.android.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+07-10 01:02:08.313 I/ndroid.systemui(  924): AssetManager2(0xb4000072c307b5f8) locale list changing from [] to [en-US]
+07-10 01:02:08.314 V/GrammaticalInflectionUtils(  677): AttributionSource: android.content.AttributionSource@e4af1813 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-10 01:02:08.315 V/WindowManagerShell(  924): Transition requested (#12): android.os.BinderProxy@e0ad360 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=12 effectiveUid=10212 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.attach.mobile/.android.MainActivity } baseActivity=ComponentInfo{com.attach.mobile/com.attach.mobile.android.MainActivity} topActivity=ComponentInfo{com.attach.mobile/com.attach.mobile.android.MainActivity} origActivity=null realActivity=ComponentInfo{com.attach.mobile/com.attach.mobile.android.MainActivity} numActivities=1 lastActiveTime=226856 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@3437019} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{c3488de com.attach.mobile.android.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(276, 692 - 804, 1772) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 12 }
+07-10 01:02:08.315 D/ShellSplitScreen(  924): logExit: no-op, mLoggerSessionId is null
+07-10 01:02:08.316 D/CompatChangeReporter(  677): Compat change id reported: 377864165; UID 10212; state: ENABLED
+07-10 01:02:08.319 I/Finsky  ( 1737): [46] WM::SCH: Logging work initialize for 12-1
+07-10 01:02:08.326 I/Finsky  ( 1737): [46] WM::SCH: Logging work initialize for 12-1
+07-10 01:02:08.331 W/HWUI    (  924): Image decoding logging dropped!
+07-10 01:02:08.356 I/Finsky  ( 1737): [54] SCH: Scheduling phonesky job Id: 12-1, CT: 1783616528019, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+07-10 01:02:08.356 I/Icing   ( 1563): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+07-10 01:02:08.358 I/Icing   ( 1563): Indexing com.google.android.gms-apps from com.google.android.gms
+07-10 01:02:08.359 D/Zygote  (  465): Forked child process 4756
+07-10 01:02:08.359 I/ActivityManager(  677): Start proc 4756:com.attach.mobile/u0a212 for next-top-activity {com.attach.mobile/com.attach.mobile.android.MainActivity}
+07-10 01:02:08.369 I/ActivityManager(  677): ProcessObserver broadcast disabled
+07-10 01:02:08.369 W/ActivityManager(  677): Slow operation: 56ms so far, now at startProcess: done updating pids map
+07-10 01:02:08.370 I/Finsky  ( 1737): [53] SCH: Scheduling 1 system job(s)
+07-10 01:02:08.371 I/Finsky  ( 1737): [53] SCH: Scheduling system job Id: 9276, L: 14649, D: 44224923, C: false, I: false, N: 1
+07-10 01:02:08.372 W/SplitSelectStateCtor( 1057): Missing session instanceIds
+07-10 01:02:08.372 D/StatsLog( 1057): LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+07-10 01:02:08.375 I/Icing   ( 1563): Indexing done com.google.android.gms-apps
+07-10 01:02:08.375 I/Icing   ( 1563): Indexing com.google.android.gms-apps from com.google.android.gms
+07-10 01:02:08.375 I/Icing   ( 1563): Indexing done com.google.android.gms-apps
+07-10 01:02:08.375 D/BackgroundInstallControlService(  677): Package event received: 0
+07-10 01:02:08.376 I/Finsky  ( 1737): [47] [ContentSync] finished, scheduled=true
+07-10 01:02:08.376 I/Finsky  ( 1737): [56] SCH: Scheduling phonesky job Id: 12-1, CT: 1783616527878, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+07-10 01:02:08.377 I/m.attach.mobile( 4756): Late-enabling -Xcheck:jni
+07-10 01:02:08.378 I/Finsky  ( 1737): [58] SCH: Scheduling 1 system job(s)
+07-10 01:02:08.378 I/Finsky  ( 1737): [58] SCH: Scheduling system job Id: 9276, L: 14500, D: 44224915, C: false, I: false, N: 1
+07-10 01:02:08.382 D/WindowManagerShell(  924): setLauncherKeepClearAreaHeight: visible=false, height=527
+07-10 01:02:08.385 I/BpBinder(  508): onLastStrongRef automatically unlinking death recipients: 
+07-10 01:02:08.405 I/Finsky  ( 1737): [46] [ContentSync] finished, scheduled=true
+07-10 01:02:08.414 I/m.attach.mobile( 4756): Using CollectorTypeCMC GC.
+07-10 01:02:08.441 D/nativeloader( 4756): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+07-10 01:02:08.443 I/adbd    (  512): jdwp connection from 4756
+07-10 01:02:08.493 V/WindowManager(  677): Sent Transition (#12) createdAt=07-10 01:02:08.302 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=12 effectiveUid=10212 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.attach.mobile/.android.MainActivity } baseActivity=ComponentInfo{com.attach.mobile/com.attach.mobile.android.MainActivity} topActivity=ComponentInfo{com.attach.mobile/com.attach.mobile.android.MainActivity} origActivity=null realActivity=ComponentInfo{com.attach.mobile/com.attach.mobile.android.MainActivity} numActivities=1 lastActiveTime=226856 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{dd70e9b Task{5dcc9ee #12 type=standard A=10212:com.attach.mobile}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{1e6a238 com.attach.mobile.android.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(276, 692 - 804, 1772) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 12 }
+07-10 01:02:08.493 V/WindowManager(  677):     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+07-10 01:02:08.493 V/WindowManager(  677):     info={id=12 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+07-10 01:02:08.493 V/WindowManager(  677):         {WCT{RemoteToken{dd70e9b Task{5dcc9ee #12 type=standard A=10212:com.attach.mobile}}} m=OPEN f=NONE leash=Surface(name=Task=12)/@0x613195 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+07-10 01:02:08.493 V/WindowManager(  677):         {WCT{RemoteToken{11d3819 Task{8dcf0a6 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x76653f4 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+07-10 01:02:08.493 V/WindowManager(  677):         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{64c4368 showWhenLocked=false})/@0xa3bc1c7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+07-10 01:02:08.493 V/WindowManager(  677):     ]}
+07-10 01:02:08.510 D/ScalingWorkspaceRevealAnim( 1057): alpha of workspace at the end of animation: 1.0
+07-10 01:02:08.515 V/WindowManagerShell(  924): onTransitionReady(transaction=2907692859960)
+07-10 01:02:08.516 V/WindowManagerShell(  924): onTransitionReady (#12) android.os.BinderProxy@e0ad360: {id=12 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+07-10 01:02:08.516 V/WindowManagerShell(  924):         {m=OPEN f=NONE leash=Surface(name=Task=12)/@0x6b97454 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+07-10 01:02:08.516 V/WindowManagerShell(  924):         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xb604ffd sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+07-10 01:02:08.516 V/WindowManagerShell(  924):         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{64c4368 showWhenLocked=false})/@0xb0f54f2 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+07-10 01:02:08.516 V/WindowManagerShell(  924):     ]}
+07-10 01:02:08.516 V/WindowManagerShell(  924): Transition (#12) android.os.BinderProxy@e0ad360@0 ready while (#11) android.os.BinderProxy@5ee412c@0 is still animating. Notify the animating transition in case they can be merged
+07-10 01:02:08.517 V/WindowManagerShell(  924):    Merge into remote: RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@54e04a3, appThread = android.app.IApplicationThread$Stub$Proxy@b3d3a0, debugName = QuickstepLaunchHome }
+07-10 01:02:08.518 V/WindowManagerShell(  924): Transition animation finished (aborted=false), notifying core (#11) android.os.BinderProxy@5ee412c@0
+07-10 01:02:08.528 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30832f8) locale list changing from [] to [en-US]
+07-10 01:02:08.531 V/WindowManager(  677): Finish Transition (#11): created at 07-10 01:02:07.282 collect-started=0.124ms request-sent=0.342ms started=10.973ms ready=26.426ms sent=134.773ms commit=52.232ms finished=1248.68ms
+07-10 01:02:08.532 E/IPCThreadState(  677): Binder transaction failure. id: 280766, BR_*: 29189, error: -22 (Invalid argument)
+07-10 01:02:08.532 W/ActivityManager(  677): pid 677 system sent binder code 7 with flags 1 to frozen apps and got error -32
+07-10 01:02:08.533 W/WindowManager(  677): Exception thrown during dispatchAppVisibility Window{de7c283 u0 com.attach.mobile/com.attach.mobile.android.MainActivity EXITING}
+07-10 01:02:08.533 W/WindowManager(  677): android.os.DeadObjectException
+07-10 01:02:08.533 W/WindowManager(  677): 	at android.os.BinderProxy.transactNative(Native Method)
+07-10 01:02:08.533 W/WindowManager(  677): 	at android.os.BinderProxy.transact(BinderProxy.java:592)
+07-10 01:02:08.533 W/WindowManager(  677): 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:557)
+07-10 01:02:08.533 W/WindowManager(  677): 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3151)
+07-10 01:02:08.533 W/WindowManager(  677): 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1311)
+07-10 01:02:08.533 W/WindowManager(  677): 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:389)
+07-10 01:02:08.533 W/WindowManager(  677): 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:6650)
+07-10 01:02:08.533 W/WindowManager(  677): 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5561)
+07-10 01:02:08.533 W/WindowManager(  677): 	at com.android.server.wm.Transition.finishTransition(Transition.java:1391)
+07-10 01:02:08.533 W/WindowManager(  677): 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:1029)
+07-10 01:02:08.533 W/WindowManager(  677): 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:496)
+07-10 01:02:08.533 W/WindowManager(  677): 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:261)
+07-10 01:02:08.533 W/WindowManager(  677): 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:223)
+07-10 01:02:08.533 W/WindowManager(  677): 	at android.os.Binder.execTransactInternal(Binder.java:1421)
+07-10 01:02:08.533 W/WindowManager(  677): 	at android.os.Binder.execTransact(Binder.java:1365)
+07-10 01:02:08.533 W/Process (  677): Unable to open /proc/4551/status
+07-10 01:02:08.536 W/ActivityManager(  677): Slow operation: 51ms so far, now at attachApplicationLocked: immediately after bindApplication
+07-10 01:02:08.548 V/WindowManagerShell(  924): Playing animation for (#12) android.os.BinderProxy@e0ad360@0
+07-10 01:02:08.548 V/ShellRecents(  924): RecentsTransitionHandler.startAnimation: no controller found
+07-10 01:02:08.548 V/WindowManagerShell(  924): Transition doesn't have explicit remote, search filters for match for {id=12 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=12)/@0x6b97454 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xb604ffd sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{64c4368 showWhenLocked=false})/@0xb0f54f2 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}]}
+07-10 01:02:08.548 V/WindowManagerShell(  924):  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=undefined independent=true modes=[CLOSE,TO_BACK] flags=IN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask=false order=ANY topActivity=null launchCookie=null taskFragmentToken=android.os.BinderProxy@aee3146 windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@c927f07, appThread = android.app.IApplicationThread$Stub$Proxy@37e6834, debugName = overlayBackTransition }}
+07-10 01:02:08.549 V/WindowManagerShell(  924):  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@cca665d, appThread = android.app.IApplicationThread$Stub$Proxy@64c1bd2, debugName = LauncherToDream }}
+07-10 01:02:08.549 V/WindowManagerShell(  924):  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@54e04a3, appThread = android.app.IApplicationThread$Stub$Proxy@b3d3a0, debugName = QuickstepLaunchHome }}
+07-10 01:02:08.549 V/WindowManagerShell(  924):  Delegate animation for (#12) to null
+07-10 01:02:08.549 V/WindowManagerShell(  924): start default transition animation, info = {id=12 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=12)/@0x6b97454 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xb604ffd sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{64c4368 showWhenLocked=false})/@0xb0f54f2 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}]}
+07-10 01:02:08.549 V/WindowManagerShell(  924): loadAnimation: anim=android.view.animation.AnimationSet@566eef9 animAttr=0x13 type=OPEN isEntrance=false
+07-10 01:02:08.550 V/WindowManagerShell(  924): loadAnimation: anim=android.view.animation.AnimationSet@739ce3e animAttr=0x12 type=OPEN isEntrance=true
+07-10 01:02:08.550 V/WindowManagerShell(  924):  animated by com.android.wm.shell.transition.DefaultTransitionHandler@8fc76b4
+07-10 01:02:08.555 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307ee38) locale list changing from [] to [en-US]
+07-10 01:02:08.557 W/ActivityManager(  677): Slow operation: 72ms so far, now at attachApplicationLocked: after updateLruProcessLocked
+07-10 01:02:08.557 W/ActivityManager(  677): Slow operation: 73ms so far, now at attachApplicationLocked: after updateOomAdjLocked
+07-10 01:02:08.563 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307f798) locale list changing from [] to [en-US]
+07-10 01:02:08.564 D/BackgroundInstallControlService(  677): Package event received: 0
+07-10 01:02:08.571 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3083f78) locale list changing from [] to [en-US]
+07-10 01:02:08.573 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30845b8) locale list changing from [] to [en-US]
+07-10 01:02:08.578 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30819f8) locale list changing from [] to [en-US]
+07-10 01:02:08.579 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30703d8) locale list changing from [] to [en-US]
+07-10 01:02:08.582 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3074bb8) locale list changing from [] to [en-US]
+07-10 01:02:08.584 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3075518) locale list changing from [] to [en-US]
+07-10 01:02:08.585 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306fd98) locale list changing from [] to [en-US]
+07-10 01:02:08.586 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3071698) locale list changing from [] to [en-US]
+07-10 01:02:08.589 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3076e18) locale list changing from [] to [en-US]
+07-10 01:02:08.594 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30738f8) locale list changing from [] to [en-US]
+07-10 01:02:08.596 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30764b8) locale list changing from [] to [en-US]
+07-10 01:02:08.598 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30719b8) locale list changing from [] to [en-US]
+07-10 01:02:08.598 D/RecentsView( 1057): onTaskRemoved: 11, not handling task stack changes
+07-10 01:02:08.598 D/RecentsView( 1057): onTaskRemoved: 11, not handling task stack changes
+07-10 01:02:08.601 E/BpTransactionCompletedListener(  508): Failed to transact (-32)
+07-10 01:02:08.636 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3072958) locale list changing from [] to [en-US]
+07-10 01:02:08.638 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3053558) locale list changing from [] to [en-US]
+07-10 01:02:08.662 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30767d8) locale list changing from [] to [en-US]
+07-10 01:02:08.664 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306f438) locale list changing from [] to [en-US]
+07-10 01:02:08.668 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3051c58) locale list changing from [] to [en-US]
+07-10 01:02:08.692 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3072c78) locale list changing from [] to [en-US]
+07-10 01:02:08.727 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3075b58) locale list changing from [] to [en-US]
+07-10 01:02:08.731 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3074578) locale list changing from [] to [en-US]
+07-10 01:02:08.734 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3069cb8) locale list changing from [] to [en-US]
+07-10 01:02:08.740 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30732b8) locale list changing from [] to [en-US]
+07-10 01:02:08.742 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3068098) locale list changing from [] to [en-US]
+07-10 01:02:08.742 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3074ed8) locale list changing from [] to [en-US]
+07-10 01:02:08.743 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306de58) locale list changing from [] to [en-US]
+07-10 01:02:08.744 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306d4f8) locale list changing from [] to [en-US]
+07-10 01:02:08.745 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306b5b8) locale list changing from [] to [en-US]
+07-10 01:02:08.745 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306af78) locale list changing from [] to [en-US]
+07-10 01:02:08.746 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306e498) locale list changing from [] to [en-US]
+07-10 01:02:08.746 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306d818) locale list changing from [] to [en-US]
+07-10 01:02:08.747 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306e7b8) locale list changing from [] to [en-US]
+07-10 01:02:08.754 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306cb98) locale list changing from [] to [en-US]
+07-10 01:02:08.755 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30686d8) locale list changing from [] to [en-US]
+07-10 01:02:08.757 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306db38) locale list changing from [] to [en-US]
+07-10 01:02:08.760 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3069358) locale list changing from [] to [en-US]
+07-10 01:02:08.762 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306a2f8) locale list changing from [] to [en-US]
+07-10 01:02:08.763 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306ead8) locale list changing from [] to [en-US]
+07-10 01:02:08.763 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3068d18) locale list changing from [] to [en-US]
+07-10 01:02:08.763 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306edf8) locale list changing from [] to [en-US]
+07-10 01:02:08.763 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3067d78) locale list changing from [] to [en-US]
+07-10 01:02:08.764 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306ceb8) locale list changing from [] to [en-US]
+07-10 01:02:08.764 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3069fd8) locale list changing from [] to [en-US]
+07-10 01:02:08.767 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3063598) locale list changing from [] to [en-US]
+07-10 01:02:08.767 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306c878) locale list changing from [] to [en-US]
+07-10 01:02:08.768 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3067a58) locale list changing from [] to [en-US]
+07-10 01:02:08.780 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c305c1f8) locale list changing from [] to [en-US]
+07-10 01:02:08.780 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3055df8) locale list changing from [] to [en-US]
+07-10 01:02:08.782 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c306b298) locale list changing from [] to [en-US]
+07-10 01:02:08.784 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30589b8) locale list changing from [] to [en-US]
+07-10 01:02:08.785 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3058698) locale list changing from [] to [en-US]
+07-10 01:02:08.788 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3058378) locale list changing from [] to [en-US]
+07-10 01:02:08.789 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c305bed8) locale list changing from [] to [en-US]
+07-10 01:02:08.789 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c305f3f8) locale list changing from [] to [en-US]
+07-10 01:02:08.790 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c305bbb8) locale list changing from [] to [en-US]
+07-10 01:02:08.792 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c305b578) locale list changing from [] to [en-US]
+07-10 01:02:08.792 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3050038) locale list changing from [] to [en-US]
+07-10 01:02:08.794 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c305e458) locale list changing from [] to [en-US]
+07-10 01:02:08.795 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3059318) locale list changing from [] to [en-US]
+07-10 01:02:08.796 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c305af38) locale list changing from [] to [en-US]
+07-10 01:02:08.796 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3060078) locale list changing from [] to [en-US]
+07-10 01:02:08.796 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3063ef8) locale list changing from [] to [en-US]
+07-10 01:02:08.797 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3061018) locale list changing from [] to [en-US]
+07-10 01:02:08.797 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3066478) locale list changing from [] to [en-US]
+07-10 01:02:08.797 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3066798) locale list changing from [] to [en-US]
+07-10 01:02:08.798 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3064218) locale list changing from [] to [en-US]
+07-10 01:02:08.798 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c305a8f8) locale list changing from [] to [en-US]
+07-10 01:02:08.798 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30670f8) locale list changing from [] to [en-US]
+07-10 01:02:08.798 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3064538) locale list changing from [] to [en-US]
+07-10 01:02:08.799 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30638b8) locale list changing from [] to [en-US]
+07-10 01:02:08.800 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c305fa38) locale list changing from [] to [en-US]
+07-10 01:02:08.813 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3062918) locale list changing from [] to [en-US]
+07-10 01:02:08.814 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3066158) locale list changing from [] to [en-US]
+07-10 01:02:08.817 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3066dd8) locale list changing from [] to [en-US]
+07-10 01:02:08.819 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3065e38) locale list changing from [] to [en-US]
+07-10 01:02:08.820 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30622d8) locale list changing from [] to [en-US]
+07-10 01:02:08.821 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3061978) locale list changing from [] to [en-US]
+07-10 01:02:08.821 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3062c38) locale list changing from [] to [en-US]
+07-10 01:02:08.821 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30625f8) locale list changing from [] to [en-US]
+07-10 01:02:08.822 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3060cf8) locale list changing from [] to [en-US]
+07-10 01:02:08.823 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3065b18) locale list changing from [] to [en-US]
+07-10 01:02:08.824 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3060398) locale list changing from [] to [en-US]
+07-10 01:02:08.826 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3064e98) locale list changing from [] to [en-US]
+07-10 01:02:08.827 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3066ab8) locale list changing from [] to [en-US]
+07-10 01:02:08.828 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30657f8) locale list changing from [] to [en-US]
+07-10 01:02:08.829 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3070d38) locale list changing from [] to [en-US]
+07-10 01:02:08.830 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3061338) locale list changing from [] to [en-US]
+07-10 01:02:08.830 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3064858) locale list changing from [] to [en-US]
+07-10 01:02:08.831 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30706f8) locale list changing from [] to [en-US]
+07-10 01:02:08.832 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3074258) locale list changing from [] to [en-US]
+07-10 01:02:08.832 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30751f8) locale list changing from [] to [en-US]
+07-10 01:02:08.833 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3072318) locale list changing from [] to [en-US]
+07-10 01:02:08.833 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3076af8) locale list changing from [] to [en-US]
+07-10 01:02:08.844 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3073f38) locale list changing from [] to [en-US]
+07-10 01:02:08.844 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3073c18) locale list changing from [] to [en-US]
+07-10 01:02:08.846 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307e1b8) locale list changing from [] to [en-US]
+07-10 01:02:08.846 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307ac98) locale list changing from [] to [en-US]
+07-10 01:02:08.854 V/WindowManagerShell(  924): Transition animation finished (aborted=false), notifying core (#12) android.os.BinderProxy@e0ad360@0
+07-10 01:02:08.855 V/WindowManager(  677): Finish Transition (#12): created at 07-10 01:02:08.302 collect-started=0.021ms request-sent=9.613ms started=13.41ms ready=182.252ms sent=190.391ms commit=75.434ms finished=552.976ms
+07-10 01:02:08.856 V/WindowManagerShell(  924): Track 0 became idle
+07-10 01:02:08.856 V/WindowManagerShell(  924): All active transition animations finished
+07-10 01:02:08.856 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307d218) locale list changing from [] to [en-US]
+07-10 01:02:08.861 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307a658) locale list changing from [] to [en-US]
+07-10 01:02:08.864 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3079078) locale list changing from [] to [en-US]
+07-10 01:02:08.867 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30796b8) locale list changing from [] to [en-US]
+07-10 01:02:08.874 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307a978) locale list changing from [] to [en-US]
+07-10 01:02:08.877 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307eb18) locale list changing from [] to [en-US]
+07-10 01:02:08.889 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307b2d8) locale list changing from [] to [en-US]
+07-10 01:02:08.895 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307f158) locale list changing from [] to [en-US]
+07-10 01:02:08.896 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30799d8) locale list changing from [] to [en-US]
+07-10 01:02:08.896 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307b5f8) locale list changing from [] to [en-US]
+07-10 01:02:08.897 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3079cf8) locale list changing from [] to [en-US]
+07-10 01:02:08.898 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307de98) locale list changing from [] to [en-US]
+07-10 01:02:08.900 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30780d8) locale list changing from [] to [en-US]
+07-10 01:02:08.901 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3077db8) locale list changing from [] to [en-US]
+07-10 01:02:08.908 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c30848d8) locale list changing from [] to [en-US]
+07-10 01:02:08.911 D/VRI[NexusLauncherActivity]( 1057): visibilityChanged oldVisibility=true newVisibility=false
+07-10 01:02:08.911 D/NexusLauncherModelDelegate( 1057): notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+07-10 01:02:08.912 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307b918) locale list changing from [] to [en-US]
+07-10 01:02:08.913 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3079398) locale list changing from [] to [en-US]
+07-10 01:02:08.932 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3085eb8) locale list changing from [] to [en-US]
+07-10 01:02:08.961 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3082cb8) locale list changing from [] to [en-US]
+07-10 01:02:08.962 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307c598) locale list changing from [] to [en-US]
+07-10 01:02:08.963 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c3083618) locale list changing from [] to [en-US]
+07-10 01:02:08.963 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307e7f8) locale list changing from [] to [en-US]
+07-10 01:02:08.964 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307c8b8) locale list changing from [] to [en-US]
+07-10 01:02:08.965 I/.apps.wellbeing( 1509): AssetManager2(0xb4000072c307bf58) locale list changing from [] to [en-US]
+07-10 01:02:08.994 D/NetworkStatsObservers(  677): Unregistering RequestInfo from pid/uid:677/1000(android) for DataUsageRequest [ requestId=10, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[310260...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=3546431 ] accessLevel:3
+07-10 01:02:08.994 D/NetworkStatsObservers(  677): Registering observer for RequestInfo from pid/uid:677/1000(android) for DataUsageRequest [ requestId=11, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[310260...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=3542521 ] accessLevel:3
+07-10 01:02:08.994 D/nativeloader( 4756): Configuring clns-9 for other apk /data/app/~~PpoYJ7QRoHO8hnwgZPp5ag==/com.attach.mobile-xHwnvzdVEGhp8V2gPdHF_g==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~PpoYJ7QRoHO8hnwgZPp5ag==/com.attach.mobile-xHwnvzdVEGhp8V2gPdHF_g==/lib/arm64:/data/app/~~PpoYJ7QRoHO8hnwgZPp5ag==/com.attach.mobile-xHwnvzdVEGhp8V2gPdHF_g==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.attach.mobile
+07-10 01:02:08.998 I/m.attach.mobile( 4756): AssetManager2(0xb4000072c3050cb8) locale list changing from [] to [en-US]
+07-10 01:02:09.003 V/GraphicsEnvironment( 4756): Currently set values for:
+07-10 01:02:09.003 V/GraphicsEnvironment( 4756):   angle_gl_driver_selection_pkgs=[]
+07-10 01:02:09.003 V/GraphicsEnvironment( 4756):   angle_gl_driver_selection_values=[]
+07-10 01:02:09.003 V/GraphicsEnvironment( 4756): com.attach.mobile is not listed in per-application setting
+07-10 01:02:09.003 V/GraphicsEnvironment( 4756): ANGLE allowlist from config: 
+07-10 01:02:09.003 V/GraphicsEnvironment( 4756): com.attach.mobile is not listed in ANGLE allowlist or settings, returning default
+07-10 01:02:09.004 V/GraphicsEnvironment( 4756): Neither updatable production driver nor prerelease driver is supported.
+07-10 01:02:09.027 W/OptProp (  677): Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+07-10 01:02:09.029 D/BackgroundInstallControlService(  677): Package event received: 0
+07-10 01:02:09.029 D/BackgroundInstallControlService(  677): Package event received: 0
+07-10 01:02:09.031 I/DisplayManager( 4756): Choreographer implicitly registered for the refresh rate.
+07-10 01:02:09.032 I/m.attach.mobile( 4756): AssetManager2(0xb4000072c3050fd8) locale list changing from [] to [en-US]
+07-10 01:02:09.044 E/ashmem  ( 4756): Pinning is deprecated since Android Q. Please use trim or other methods.
+07-10 01:02:09.060 D/CompatChangeReporter( 4756): Compat change id reported: 377864165; UID 10212; state: ENABLED
+07-10 01:02:09.061 D/DesktopModeFlags( 4756): Toggle override initialized to: OVERRIDE_UNSET
+07-10 01:02:09.080 I/EGL_emulation( 4756): Opening libGLESv1_CM_emulation.so
+07-10 01:02:09.080 I/EGL_emulation( 4756): Opening libGLESv2_emulation.so
+07-10 01:02:09.084 W/HWUI    ( 4756): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-10 01:02:09.085 W/HWUI    ( 4756): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+07-10 01:02:09.091 W/HWUI    ( 4756): Unknown dataspace 0
+07-10 01:02:09.095 D/CoreBackPreview(  677): Window{596055e u0 com.attach.mobile/com.attach.mobile.android.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@f1ad60c, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+07-10 01:02:09.142 W/m.attach.mobile( 4756): Method void androidx.compose.runtime.snapshots.SnapshotStateListKt.clearImpl(androidx.compose.runtime.snapshots.SnapshotStateList) failed lock verification and will run slower.
+07-10 01:02:09.142 W/m.attach.mobile( 4756): Common causes for lock verification issues are non-optimized dex code
+07-10 01:02:09.142 W/m.attach.mobile( 4756): and incorrect proguard optimizations.
+07-10 01:02:09.175 I/m.attach.mobile( 4756): hiddenapi: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/compose/ui/platform/AndroidComposeView$Companion; (domain=app) using reflection: allowed
+07-10 01:02:09.190 D/ServerConfigStore( 4756): loaded 0 chars
+07-10 01:02:09.190 I/AttachApp( 4756): loaded 0 saved servers
+07-10 01:02:09.218 W/HWUI    ( 4756): Image decoding logging dropped!
+07-10 01:02:09.265 I/m.attach.mobile( 4756): Compiler allocated 5111KB to compile void android.view.ViewRootImpl.performTraversals()
+07-10 01:02:09.379 I/ActivityTaskManager(  677): Displayed com.attach.mobile/.android.MainActivity for user 0: +1s78ms
+07-10 01:02:09.380 D/BaseDepthController( 1057): setSurface:
+07-10 01:02:09.380 D/BaseDepthController( 1057): 	mWaitingOnSurfaceValidity: false
+07-10 01:02:09.380 D/BaseDepthController( 1057): 	mBaseSurface: null
+07-10 01:02:09.380 D/BaseDepthController( 1057): mSurface is null and mCurrentBlur is: 0
+07-10 01:02:09.381 D/StateManager( 1057): goToState - fromState: Normal, toState: Normal, partial trace:
+07-10 01:02:09.381 D/StateManager( 1057): 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:4)
+07-10 01:02:09.381 D/StateManager( 1057): 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:1)
+07-10 01:02:09.381 D/StateManager( 1057): 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:34)
+07-10 01:02:09.381 D/StatsLog( 1057): LAUNCHER_ONSTOP
+07-10 01:02:09.382 D/StatsLog( 1057): LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+07-10 01:02:09.395 D/BackgroundInstallControlService(  677): Package event received: 0
+07-10 01:02:09.412 I/ImeTracker(  677): com.attach.mobile:78229daf: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+07-10 01:02:09.418 D/InsetsController( 4756): hide(ime(), fromIme=false)
+07-10 01:02:09.418 I/ImeTracker( 4756): com.attach.mobile:78229daf: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+07-10 01:02:09.418 I/ImeTracker(  677): system_server:99f3ecb5: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+07-10 01:02:09.419 I/GoogleInputMethodService( 1547): GoogleInputMethodService.onFinishInput():2043 
+07-10 01:02:09.420 I/Module  ( 1547): DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-10 01:02:09.420 I/GoogleInputMethodService( 1547): GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.attach.mobile, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-10 01:02:09.420 I/Module  ( 1547): DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at asx.p(PG:6)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at axb.b(PG:13)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at jnr.b(PG:2)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at jnr.c(PG:4)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at jnr.f(PG:3)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at jnx.c(PG:3)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at kif.cz(PG:47)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at lhl.run(PG:1025)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at jaf.execute(PG:12)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at nco.v(PG:13)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at lhn.m(PG:96)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at lhn.k(PG:25)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at kgn.onStartInput(PG:250)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at android.os.Looper.loopOnce(Looper.java:248)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at android.os.Looper.loop(Looper.java:338)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at java.lang.reflect.Method.invoke(Native Method)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+07-10 01:02:09.421 I/EmojiCompatManager( 1547): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+07-10 01:02:09.421 W/PackageConfigPersister(  677): App-specific configuration not found for packageName: com.attach.mobile and userId: 0
+07-10 01:02:09.422 I/ImeTracker(  677): system_server:99f3ecb5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-10 01:02:09.612 I/FontLog ( 1226): (REDACTED) Received query %s, URI %s
+07-10 01:02:09.612 I/FontLog ( 1226): (REDACTED) Query [%s] resolved to %s
+07-10 01:02:09.613 I/FontLog ( 1226): (REDACTED) Fetch %s end status %s
+07-10 01:02:09.615 I/FontLog ( 1226): (REDACTED) Pulling font file for id = %d, cache size = %d
+07-10 01:02:09.620 I/FontLog ( 1226): (REDACTED) Pulling font file for id = %d, cache size = %d
+07-10 01:02:10.284 D/InetDiagMessage(  677): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 01:02:10.284 D/InetDiagMessage(  677): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-10 01:02:10.284 D/InetDiagMessage(  677): Destroyed live tcp sockets for uids={10142} in 1ms
+07-10 01:02:10.284 D/InetDiagMessage(  677): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 01:02:10.285 D/InetDiagMessage(  677): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-10 01:02:10.285 D/InetDiagMessage(  677): Destroyed live tcp sockets for uids={20142} in 0ms
+07-10 01:02:11.295 D/OomAdjuster(  677): Not killing cached processes
+07-10 01:02:11.393 I/AttachApp( 4756): opening server MacBook Pro (127.0.0.1:22)
+07-10 01:02:11.394 I/TcpTerminalClient( 4756): listing windows from 127.0.0.1:22
+07-10 01:02:11.394 D/TcpTerminalClient( 4756): probing 127.0.0.1:22
+07-10 01:02:11.394 D/TcpTerminalClient( 4756): request to 127.0.0.1:22
+07-10 01:02:11.398 E/TcpConnection( 4756): failed to connect to 127.0.0.1:22
+07-10 01:02:11.398 E/TcpConnection( 4756): java.net.ConnectException: failed to connect to /127.0.0.1 (port 22) from /:: (port 53098): connect failed: ECONNREFUSED (Connection refused)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at libcore.io.IoBridge.connect(IoBridge.java:187)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at java.net.Socket.connect(Socket.java:646)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at java.net.Socket.connect(Socket.java:595)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at java.net.Socket.<init>(Socket.java:475)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at java.net.Socket.<init>(Socket.java:243)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at com.attach.mobile.remotecontrol.TcpConnection.<init>(TcpConnection.android.kt:12)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at com.attach.mobile.remotecontrol.TcpTerminalClient.request(TcpTerminalClient.kt:20)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at com.attach.mobile.remotecontrol.TcpTerminalClient.ensureSession(TcpTerminalClient.kt:33)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at com.attach.mobile.remotecontrol.TcpTerminalClient.access$ensureSession(TcpTerminalClient.kt:17)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at com.attach.mobile.remotecontrol.TcpTerminalClient$listWindows$2.invokeSuspend(TcpTerminalClient.kt:65)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:829)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+07-10 01:02:11.398 E/TcpConnection( 4756): Caused by: android.system.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at libcore.io.Linux.connect(Native Method)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at libcore.io.ForwardingOs.connect(ForwardingOs.java:201)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:158)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at libcore.io.ForwardingOs.connect(ForwardingOs.java:201)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:201)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+07-10 01:02:11.398 E/TcpConnection( 4756): 	... 20 more
+07-10 01:02:11.400 E/AttachApp( 4756): failed to list windows for MacBook Pro
+07-10 01:02:11.400 E/AttachApp( 4756): java.net.ConnectException: failed to connect to /127.0.0.1 (port 22) from /:: (port 53098): connect failed: ECONNREFUSED (Connection refused)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at libcore.io.IoBridge.connect(IoBridge.java:187)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at java.net.Socket.connect(Socket.java:646)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at java.net.Socket.connect(Socket.java:595)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at java.net.Socket.<init>(Socket.java:475)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at java.net.Socket.<init>(Socket.java:243)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at com.attach.mobile.remotecontrol.TcpConnection.<init>(TcpConnection.android.kt:12)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at com.attach.mobile.remotecontrol.TcpTerminalClient.request(TcpTerminalClient.kt:20)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at com.attach.mobile.remotecontrol.TcpTerminalClient.ensureSession(TcpTerminalClient.kt:33)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at com.attach.mobile.remotecontrol.TcpTerminalClient.access$ensureSession(TcpTerminalClient.kt:17)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at com.attach.mobile.remotecontrol.TcpTerminalClient$listWindows$2.invokeSuspend(TcpTerminalClient.kt:65)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:829)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+07-10 01:02:11.400 E/AttachApp( 4756): Caused by: android.system.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at libcore.io.Linux.connect(Native Method)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at libcore.io.ForwardingOs.connect(ForwardingOs.java:201)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:158)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at libcore.io.ForwardingOs.connect(ForwardingOs.java:201)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:201)
+07-10 01:02:11.400 E/AttachApp( 4756): 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+07-10 01:02:11.400 E/AttachApp( 4756): 	... 20 more
+07-10 01:02:11.589 W/acut    ( 1771): (REDACTED) [%s] response code: %d
+07-10 01:02:11.688 I/dail    ( 1771): (REDACTED) Response body written. bytesWritten=%d, uri=%s
+07-10 01:02:11.688 I/dail    ( 1771): (REDACTED) Request complete, closing. uri=%s
+07-10 01:02:11.689 I/dail    ( 1771): (REDACTED) Exceeded max concurrent downloads, not running another queued request
+07-10 01:02:11.692 I/dail    ( 1771): (REDACTED) Exceeded max concurrent downloads, not running another queued request
+07-10 01:02:11.693 I/dail    ( 1771): (REDACTED) Sending URL request: uri=%s
+07-10 01:02:11.742 I/dail    ( 1771): (REDACTED) Got URL response, starting to read response body. uri=%s
+07-10 01:02:11.856 I/dail    ( 1771): (REDACTED) Response body written. bytesWritten=%d, uri=%s
+07-10 01:02:11.856 I/dail    ( 1771): (REDACTED) Request complete, closing. uri=%s
+07-10 01:02:11.856 I/dail    ( 1771): (REDACTED) Exceeded max concurrent downloads, not running another queued request
+07-10 01:02:11.857 I/dail    ( 1771): (REDACTED) Exceeded max concurrent downloads, not running another queued request
+07-10 01:02:11.858 I/dail    ( 1771): (REDACTED) Sending URL request: uri=%s
+07-10 01:02:11.904 I/dail    ( 1771): (REDACTED) Got URL response, starting to read response body. uri=%s
+07-10 01:02:11.908 I/dail    ( 1771): (REDACTED) Response body written. bytesWritten=%d, uri=%s
+07-10 01:02:11.908 I/dail    ( 1771): (REDACTED) Request complete, closing. uri=%s
+07-10 01:02:11.909 I/dail    ( 1771): (REDACTED) Exceeded max concurrent downloads, not running another queued request
+07-10 01:02:11.909 I/dail    ( 1771): (REDACTED) Exceeded max concurrent downloads, not running another queued request
+07-10 01:02:11.909 I/dail    ( 1771): (REDACTED) Sending URL request: uri=%s
+07-10 01:02:12.034 I/dail    ( 1771): (REDACTED) Got URL response, starting to read response body. uri=%s
+07-10 01:02:12.320 E/TaskPersister(  677): File error accessing recents directory (directory doesn't exist?).
+07-10 01:02:12.336 I/wpa_supplicant(  910): wlan0: CTRL-EVENT-BEACON-LOSS 
+07-10 01:02:12.990 I/dail    ( 1771): (REDACTED) Response body written. bytesWritten=%d, uri=%s
+07-10 01:02:12.990 I/dail    ( 1771): (REDACTED) Request complete, closing. uri=%s
+07-10 01:02:12.995 I/dail    ( 1771): (REDACTED) Exceeded max concurrent downloads, not running another queued request
+07-10 01:02:12.995 I/dail    ( 1771): (REDACTED) Exceeded max concurrent downloads, not running another queued request
+07-10 01:02:12.995 I/dail    ( 1771): (REDACTED) Sending URL request: uri=%s
+07-10 01:02:13.146 I/dail    ( 1771): (REDACTED) Got URL response, starting to read response body. uri=%s
+07-10 01:02:13.151 I/dail    ( 1771): (REDACTED) Response body written. bytesWritten=%d, uri=%s
+07-10 01:02:13.151 I/dail    ( 1771): (REDACTED) Request complete, closing. uri=%s
+07-10 01:02:13.151 I/dail    ( 1771): (REDACTED) Exceeded max concurrent downloads, not running another queued request
+07-10 01:02:13.154 I/dail    ( 1771): (REDACTED) Exceeded max concurrent downloads, not running another queued request
+07-10 01:02:13.155 I/dail    ( 1771): (REDACTED) Sending URL request: uri=%s
+07-10 01:02:13.270 I/dail    ( 1771): (REDACTED) Got URL response, starting to read response body. uri=%s
+07-10 01:02:14.766 D/ProfileInstaller( 4756): Installing profile for com.attach.mobile
+07-10 01:02:14.782 D/ApfFilter( 1008): (wlan0): Ignoring RA RA fe80::2 -> ff02::1 1800s fec0::/64 86400s/14400s  which matches RA fe80::2 -> ff02::1 1800s fec0::/64 86400s/14400s 
+07-10 01:02:15.312 D/ActivityManager(  677): freezing 1349 com.google.android.dialer
+07-10 01:02:15.314 D/ActivityManager(  677): freezing 4271 android.process.acore
+07-10 01:02:15.316 D/InetDiagMessage(  677): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 01:02:15.317 D/InetDiagMessage(  677): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-10 01:02:15.317 D/InetDiagMessage(  677): Destroyed live tcp sockets for uids={10142} in 2ms
+07-10 01:02:15.380 D/InetDiagMessage(  677): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 01:02:15.380 D/InetDiagMessage(  677): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-10 01:02:15.380 D/InetDiagMessage(  677): Destroyed live tcp sockets for uids={10095} in 0ms
+07-10 01:02:16.515 W/screencap( 4796): Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+07-10 01:02:16.515 W/BpBinder( 4796): Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+07-10 01:02:16.516 W/ProcessState( 4796): Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+07-10 01:02:16.521 E/HwcComposer(  508): getLuts failed Status(-8, EX_SERVICE_SPECIFIC): '8: '
+07-10 01:02:16.521 E/HWComposer(  508): getLuts: getLuts failed for display 4619827259835644672: UNSUPPORTED (8)
+07-10 01:02:16.640 D/AndroidRuntime( 4798): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-10 01:02:16.643 I/AndroidRuntime( 4798): Using default boot image
+07-10 01:02:16.643 I/AndroidRuntime( 4798): Leaving lock profiling enabled
+07-10 01:02:16.644 I/app_process( 4798): Using CollectorTypeCMC GC.
+07-10 01:02:16.698 D/nativeloader( 4798): InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+07-10 01:02:16.703 D/nativeloader( 4798): Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+07-10 01:02:16.704 D/app_process( 4798): u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/9/icu") succeeded. 
+07-10 01:02:16.704 D/app_process( 4798): I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt76l.dat
+07-10 01:02:16.705 D/nativeloader( 4798): Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+07-10 01:02:16.706 D/nativeloader( 4798): Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+07-10 01:02:16.707 W/app_process( 4798): ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*2789897741]#PCL[/system/framework/android.test.mock.jar*3361312393]} | PCL[])
+07-10 01:02:16.707 W/app_process( 4798): ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*895143020]#PCL[/system/framework/android.test.base.jar*2789897741]} | PCL[/system/framework/android.test.runner.jar*895143020])
+07-10 01:02:16.718 D/nativeloader( 4798): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+07-10 01:02:16.718 D/AndroidRuntime( 4798): Calling main entry com.android.commands.uiautomator.Launcher
+07-10 01:02:16.720 I/AconfigPackage( 4798): android.media.swcodec.flags is mapped to com.android.media.swcodec
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.google.android.settings.simplemode.flags is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.google.android.systemui is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.google.android.apps.nexuslauncher is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.settings.accessibility is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.settings.flags is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.google.android.apps.miphone.aiai.matchmaker.overview.ui is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.google.android.settings.flags is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.launcher3 is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.wallpaper is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.settings.media_drm is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.systemui.accessibility.accessibilitymenu is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.settings.keyboard is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.server.policy.feature.flags is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.settings.factory_reset is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.google.android.haptics.flags is mapped to system_ext
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.permission.flags is mapped to com.android.permission
+07-10 01:02:16.720 I/AconfigPackage( 4798): com.android.icu is mapped to com.android.i18n
+07-10 01:02:16.721 I/AconfigPackage( 4798): com.android.appsearch.flags is mapped to com.android.appsearch
+07-10 01:02:16.721 I/AconfigPackage( 4798): android.uprobestats.mainline.flags is mapped to com.android.uprobestats
+07-10 01:02:16.721 I/AconfigPackage( 4798): android.provider.flags is mapped to com.android.configinfrastructure
+07-10 01:02:16.721 I/AconfigPackage( 4798): com.android.server.deviceconfig is mapped to com.android.configinfrastructure
+07-10 01:02:16.721 I/AconfigPackage( 4798): com.android.nfc.flags is mapped to system
+07-10 01:02:16.721 I/AconfigPackage( 4798): android.app.admin.flags is mapped to system
+07-10 01:02:16.721 I/AconfigPackage( 4798): android.database.sqlite is mapped to system
+07-10 01:02:16.721 I/AconfigPackage( 4798): com.android.providers.calendar is mapped to system
+07-10 01:02:16.721 I/AconfigPackage( 4798): com.android.server.power.feature.flags is mapped to system
+07-10 01:02:16.721 I/AconfigPackage( 4798): com.android.media.performance.flags is mapped to system
+07-10 01:02:16.721 I/AconfigPackage( 4798): android.app.contextualsearch.flags is mapped to system
+07-10 01:02:16.721 I/AconfigPackage( 4798): android.app.ondeviceintelligence.flags is mapped to system
+07-10 01:02:16.721 I/AconfigPackage( 4798): com.android.media.projection.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.companion is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.service.controls.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.text.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.providers.contactkeys.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.intentresolver is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.companion.virtualdevice.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.uprobestats.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.net.thread.platform.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.view.contentprotection.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.dreams is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.graphics.surfaceflinger.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.hardware.input is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.sdk is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.input.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.tracing is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.biometrics is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.view.contentcapture.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.app.job is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.content.res is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.net.platform.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.aconfig.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.graphics.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.server.app is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.speech.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.stats is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.hardware.biometrics is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.car.feature is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.adpf is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.location.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.settingslib.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.managedprovisioning.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.app.assist.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.net is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.settingslib.widget.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.internal.camera.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.hardware.libsensor.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.internal.jank is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.providers.settings is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.multiuser is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.power.optimization is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.calllogbackup is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.media.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.graphics.libvulkan.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.app.appfunctions.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.app.smartspace.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.providers.contacts.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.shell.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.media.aaudio is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.hardware.radio is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.google.wear.services.infra.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): suspend_service.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.media.midi is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.libcore.readonly is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.settingslib.widget.selectorwithwidgetpreference.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.service.notification is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.systemui.shared is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.app.jank is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.app.wearable is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.media.audio is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.service.chooser is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.compat is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.alarm is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.apex.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.service.quickaccesswallet is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.app.usage is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.accessibility is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.app.supervision.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.utils is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.chre.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.content.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.media.codec is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.internal.os is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.nfc.nci.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.app is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.security.keystore2 is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.crashrecovery.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.tradeinmode.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.hardware.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.telecom.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.settingslib.media.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.policy is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.media.audiopolicy is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.egg.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.internal.compat.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.security is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.service.autofill is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.example.android.aconfig.demo.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.view.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.companion.virtual.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.aconfig_new_storage is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.feature.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.systemui is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.power.batterysaver is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.widget.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.media.editing.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.media.codec.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.powerstats is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.graphics.egl.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.media.audioserver is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.deviceidle is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.nfc is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.permission.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.service.voice.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.content.pm is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.power.hint is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.os is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.service.dreams is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.graphics.libgui.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.hardware.usb.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.provider is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.job is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.internal.foldables.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.internal.telephony.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.webkit is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.credentials.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.display.feature.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.notification is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.appwidget.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.frameworks.sensorservice.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.printspooler.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.window.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.adaptiveauth is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.net.wifi.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.media.tv.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.usb.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.os.vibrator is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.hardware.devicestate.feature.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.usage is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.server is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.wm.shell is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.view.inputmethod is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.graphics.hwui.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.backup is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.internal.pm.pkg.component.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.view.accessibility is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.google.wear.sdk is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): android.media.audio is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.server.am is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.media.playback.flags is mapped to system
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.art.flags is mapped to com.android.art
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.libcore is mapped to com.android.art
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.media.extractor.flags is mapped to com.android.media
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.media.mainline.flags is mapped to com.android.media
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.wifi.flags is mapped to com.android.wifi
+07-10 01:02:16.722 I/AconfigPackage( 4798): com.android.org.conscrypt.flags is mapped to com.android.conscrypt
+07-10 01:02:16.723 I/AconfigPackage( 4798): com.android.healthfitness.flags is mapped to com.android.healthfitness
+07-10 01:02:16.723 I/AconfigPackage( 4798): com.google.android.input.twoshay.flags is mapped to vendor
+07-10 01:02:16.723 I/AconfigPackage( 4798): libgooglecamerahal.flags is mapped to vendor
+07-10 01:02:16.723 I/AconfigPackage( 4798): com.android.ipsec.flags is mapped to com.android.ipsec
+07-10 01:02:16.723 I/AconfigPackage( 4798): com.android.nfc.module.flags is mapped to com.android.nfcservices
+07-10 01:02:16.723 I/AconfigPackage( 4798): com.android.adservices.ondevicepersonalization.flags is mapped to com.android.ondevicepersonalization
+07-10 01:02:16.723 I/AconfigPackage( 4798): com.android.bluetooth.flags is mapped to com.android.bt
+07-10 01:02:16.723 I/AconfigPackage( 4798): com.android.devicelock.flags is mapped to com.android.devicelock
+07-10 01:02:16.724 I/AconfigPackage( 4798): android.os.profiling is mapped to com.android.profiling
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.os.statsd.flags is mapped to com.android.os.statsd
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.cellbroadcastreceiver.flags is mapped to com.android.cellbroadcast
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.adservices.flags is mapped to com.android.adservices
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.sdksandbox.flags is mapped to com.android.adservices
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.uwb.flags is mapped to com.android.uwb
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.ranging.flags is mapped to com.android.uwb
+07-10 01:02:16.724 I/AconfigPackage( 4798): android.graphics.pdf.flags is mapped to com.android.mediaprovider
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.providers.media.flags is mapped to com.android.mediaprovider
+07-10 01:02:16.724 I/AconfigPackage( 4798): android.graphics.pdf.flags.readonly is mapped to com.android.mediaprovider
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.net.ct.flags is mapped to com.android.tethering
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.net.flags is mapped to com.android.tethering
+07-10 01:02:16.724 I/AconfigPackage( 4798): android.net.vcn is mapped to com.android.tethering
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.nearby.flags is mapped to com.android.tethering
+07-10 01:02:16.724 I/AconfigPackage( 4798): android.net.http is mapped to com.android.tethering
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.net.thread.flags is mapped to com.android.tethering
+07-10 01:02:16.724 I/AconfigPackage( 4798): com.android.system.virtualmachine.flags is mapped to com.android.virt
+07-10 01:02:16.725 E/FeatureFlagsImplExport( 4798): android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package android.xr cannot be found on the device
+07-10 01:02:16.726 D/UiAutomationConnection( 4798): Created on user UserHandle{0}
+07-10 01:02:16.726 I/UiAutomation( 4798): Initialized for user 0 on display 0
+07-10 01:02:16.726 W/UiAutomation( 4798): Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+07-10 01:02:16.726 D/AccessibilityManagerService(  677): changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+07-10 01:02:16.726 I/UiAutomationManager(  677): Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+07-10 01:02:16.726 V/AccessibilityManagerService(  677): onUserStateChangedLocked for userId: 0, forceUpdate: false
+07-10 01:02:16.727 W/MagnificationConnectionManager(  677): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+07-10 01:02:16.728 I/AiAiEcho( 1644): Settings changed for uri: content://settings/secure/accessibility_enabled
+07-10 01:02:16.728 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:16.728 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:16.730 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:16.730 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:16.731 V/AccessibilityManagerService(  677): onUserStateChangedLocked for userId: 0, forceUpdate: false
+07-10 01:02:16.731 W/MagnificationConnectionManager(  677): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+07-10 01:02:16.732 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:16.733 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:16.734 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:16.734 I/AiAiEcho( 1644): Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-10 01:02:16.734 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:16.735 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:16.735 I/AiAiEcho( 1644): EchoTargets: 
+07-10 01:02:16.735 I/AiAiEcho( 1644): Filtered by AiAi flag check: 
+07-10 01:02:16.735 I/AiAiEcho( 1644): [CONTEXT ratelimit_period="10 SECONDS" ]
+07-10 01:02:16.735 I/AiAiEcho( 1644): #remoteViewsTwiddler: feature disabled.
+07-10 01:02:16.735 I/AiAiEcho( 1644): Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-10 01:02:16.736 I/AiAiEcho( 1644): EchoTargets: 
+07-10 01:02:16.736 I/AiAiEcho( 1644): Filtered by AiAi flag check: 
+07-10 01:02:16.736 I/AiAiEcho( 1644): [CONTEXT ratelimit_period="10 SECONDS" ]
+07-10 01:02:16.736 I/AiAiEcho( 1644): #remoteViewsTwiddler: feature disabled.
+07-10 01:02:16.736 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:16.745 D/BatterySaverPolicy(  677): accessibility changed to true, updating policy.
+07-10 01:02:16.745 I/amtp    ( 1771): NGA enabled in interactor.
+07-10 01:02:16.746 I/AiAiEcho( 1644): Settings changed for uri: content://settings/secure/accessibility_enabled
+07-10 01:02:16.749 I/amtp    ( 1771): NGA enabled in interactor.
+07-10 01:02:16.749 I/AiAiEcho( 1644): #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+07-10 01:02:16.750 I/AiAiEcho( 1644): Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-10 01:02:16.750 I/AiAiEcho( 1644): EchoTargets: 
+07-10 01:02:16.750 I/AiAiEcho( 1644): Filtered by AiAi flag check: 
+07-10 01:02:16.750 I/AiAiEcho( 1644): [CONTEXT ratelimit_period="10 SECONDS" ]
+07-10 01:02:16.750 D/AccessibilitySourceService( 1309): enabled a11y services count 0
+07-10 01:02:16.751 W/PageIndicator(  924): Total number of pages invalid: 0. Assuming 1 page.
+07-10 01:02:16.751 D/AccessibilitySourceService( 1309): a11y source sending 0 issue to sc
+07-10 01:02:16.751 I/AiAiEcho( 1644): #remoteViewsTwiddler: feature disabled.
+07-10 01:02:16.751 I/AiAiEcho( 1644): Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-10 01:02:16.751 I/AiAiEcho( 1644): EchoTargets: 
+07-10 01:02:16.751 I/AiAiEcho( 1644): Filtered by AiAi flag check: 
+07-10 01:02:16.751 I/AiAiEcho( 1644): [CONTEXT ratelimit_period="10 SECONDS" ]
+07-10 01:02:16.751 I/AiAiEcho( 1644): #remoteViewsTwiddler: feature disabled.
+07-10 01:02:16.751 I/AiAiEcho( 1644): #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-10 01:02:16.751 D/SafetySourceDataValidat(  677): No cert check requested for package com.google.android.permissioncontroller
+07-10 01:02:16.752 I/AiAiEcho( 1644): #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+07-10 01:02:16.752 I/AiAiEcho( 1644): #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-10 01:02:16.752 D/SsBaseTemplateCard( 1057): No text view can be set up
+07-10 01:02:16.752 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:16.752 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:16.752 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:16.752 I/SsBaseTemplateCard( 1057): Secondary card pane is null
+07-10 01:02:16.752 D/SsBaseTemplateCard( 1057): No text view can be set up
+07-10 01:02:16.752 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:16.752 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:16.752 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:16.752 I/SsBaseTemplateCard( 1057): Secondary card pane is null
+07-10 01:02:16.755 W/PageIndicator(  924): Total number of pages invalid: 0. Assuming 1 page.
+07-10 01:02:16.760 D/SatelliteController( 1039): iisInCarrierRoamingNbIotNtn: satellite is disabled
+07-10 01:02:17.780 W/AccessibilityNodeInfoDumper( 4798): Fetch time: 30ms
+07-10 01:02:17.780 V/AccessibilityManagerService(  677): onUserStateChangedLocked for userId: 0, forceUpdate: false
+07-10 01:02:17.781 W/MagnificationConnectionManager(  677): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+07-10 01:02:17.781 D/AccessibilityManagerService(  677): restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+07-10 01:02:17.781 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:17.781 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:17.781 I/AiAiEcho( 1644): Settings changed for uri: content://settings/secure/accessibility_enabled
+07-10 01:02:17.782 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:17.782 I/AiAiEcho( 1644): Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-10 01:02:17.782 D/AndroidRuntime( 4798): Shutting down VM
+07-10 01:02:17.782 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:17.782 W/IPCThreadState( 4798): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+07-10 01:02:17.782 W/IPCThreadState( 4798): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+07-10 01:02:17.782 W/IPCThreadState( 4798): call to talkWithDriver in joinThreadPool returned error: -9 (Bad file descriptor), FD: -1
+07-10 01:02:17.782 I/AiAiEcho( 1644): EchoTargets: 
+07-10 01:02:17.782 I/AiAiEcho( 1644): Filtered by AiAi flag check: 
+07-10 01:02:17.782 I/AiAiEcho( 1644): [CONTEXT ratelimit_period="10 SECONDS" ]
+07-10 01:02:17.782 I/AiAiEcho( 1644): #remoteViewsTwiddler: feature disabled.
+07-10 01:02:17.782 I/AiAiEcho( 1644): Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-10 01:02:17.783 I/AiAiEcho( 1644): EchoTargets: 
+07-10 01:02:17.783 I/AiAiEcho( 1644): Filtered by AiAi flag check: 
+07-10 01:02:17.783 I/AiAiEcho( 1644): [CONTEXT ratelimit_period="10 SECONDS" ]
+07-10 01:02:17.783 I/AiAiEcho( 1644): #remoteViewsTwiddler: feature disabled.
+07-10 01:02:17.783 I/amtp    ( 1771): NGA enabled in interactor.
+07-10 01:02:17.783 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:17.783 W/IPCThreadState(  677): Sending oneway calls to frozen process.
+07-10 01:02:17.783 I/AiAiEcho( 1644): #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+07-10 01:02:17.784 I/AiAiEcho( 1644): #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-10 01:02:17.785 D/SsBaseTemplateCard( 1057): No text view can be set up
+07-10 01:02:17.785 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:17.785 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:17.785 D/SsBaseTemplateCard( 1057): Passed-in item info is null
+07-10 01:02:17.785 I/SsBaseTemplateCard( 1057): Secondary card pane is null
+07-10 01:02:17.786 D/BatterySaverPolicy(  677): accessibility changed to false, updating policy.
+07-10 01:02:17.792 I/amtp    ( 1771): NGA enabled in interactor.
+07-10 01:02:17.794 W/PageIndicator(  924): Total number of pages invalid: 0. Assuming 1 page.
+07-10 01:02:18.060 D/OomAdjuster(  677): Not killing cached processes
+07-10 01:02:18.250 D/ActivityManager(  677): freezing 2284 com.android.vending:background
+07-10 01:02:18.253 D/ActivityManager(  677): freezing 1737 com.android.vending
+07-10 01:02:18.317 D/InetDiagMessage(  677): Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 01:02:18.317 D/InetDiagMessage(  677): Destroyed 2 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-10 01:02:18.317 D/InetDiagMessage(  677): Destroyed live tcp sockets for uids={10145} in 1ms

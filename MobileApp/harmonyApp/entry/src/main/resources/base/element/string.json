@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "MuxMirror 主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "MuxMirror 主入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MuxMirror"
+    },
+    {
+      "name": "vibrate_permission_reason",
+      "value": "用于触控反馈功能"
+    }
+  ]
+}

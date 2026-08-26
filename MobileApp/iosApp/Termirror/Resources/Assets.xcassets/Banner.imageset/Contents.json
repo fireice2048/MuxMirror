@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "attach_banner.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcodegen",
+    "version" : 1
+  }
+}

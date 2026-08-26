@@ -1,0 +1,81 @@
+name: Termirror
+targets:
+  Termirror:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - Termirror
+    resources:
+      - Termirror/Resources
+    settings:
+      base:
+        INFOPLIST_FILE: Termirror/Resources/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.termirror.mobile.ios
+        SWIFT_VERSION: "6.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_OBJC_BRIDGING_HEADER: Termirror/Resources/termirror_core-bridging-header.h
+        HEADER_SEARCH_PATHS: $(SRCROOT)/../shared/ffi/include
+      configs:
+        debug:
+          CODE_SIGN_IDENTITY: "iPhone Developer"
+        release:
+          CODE_SIGN_IDENTITY: "iPhone Distribution"
+    dependencies:
+      - framework: ../shared/build/ios/TermirrorCore.xcframework
+        embed: true
+        codeSign: true
+      - sdk: libz.tbd
+      - sdk: libiconv.tbd
+      - sdk: Security.framework
+      - sdk: CFNetwork.framework
+    info:
+      path: Termirror/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: MuxMirror
+        CFBundleShortVersionString: 0.1.0
+        CFBundleVersion: 1
+        LSRequiresIPhoneOS: true
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+        UILaunchScreen: {}
+  TermirrorUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - TermirrorUITests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.termirror.mobile.ios.uitests
+        SWIFT_VERSION: "6.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: Termirror
+  TermirrorTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - TermirrorTests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.termirror.mobile.ios.tests
+        SWIFT_VERSION: "6.0"
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: Termirror
+schemes:
+  Termirror:
+    build:
+      targets:
+        Termirror: all
+        TermirrorUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - name: TermirrorUITests
+        - name: TermirrorTests

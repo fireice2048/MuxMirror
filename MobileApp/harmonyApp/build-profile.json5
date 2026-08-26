@@ -1,0 +1,43 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "compatibleSdkVersion": "5.1.0(18)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        },
+        "targetSdkVersion": "26.0.0"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ],
+    // 签名配置绑定包名 com.attach.mobile.harmony（与 AppScope/app.json5 一致）。
+    // 后续若启用新包名 com.termirror.mobile.harmony，需在 DevEco Studio 重新自动签名生成新材料。
+    "signingConfigs": []
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

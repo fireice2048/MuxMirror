@@ -1,0 +1,471 @@
+07-10 07:56:07.143 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:07.143 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:07.143 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:07.144 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:07.167 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:07.167 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:07.568 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:07.569 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:07.569 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:07.570 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:07.581 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:07.582 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:07.667 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:07.982 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:07.982 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:07.982 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:07.983 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:07.991 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:07.992 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:08.171 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:08.392 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:08.392 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:08.392 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:08.393 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:08.401 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:08.401 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:08.674 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:08.802 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:08.802 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:08.802 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:08.803 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:08.805 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:08.805 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:09.176 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:09.206 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:09.207 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:09.207 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:09.208 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:09.212 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:09.212 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:09.612 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:09.612 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:09.612 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:09.613 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:09.638 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:09.638 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:09.679 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:10.041 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:10.041 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:10.042 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:10.042 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:10.077 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:10.077 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:10.179 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:10.477 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:10.478 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:10.478 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:10.479 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:10.490 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:10.490 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:10.682 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:10.892 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:10.892 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:10.892 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:10.893 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:10.909 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:10.909 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:11.182 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:11.311 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:11.311 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:11.311 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:11.312 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:11.346 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:11.346 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:11.684 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:11.748 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:11.748 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:11.748 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:11.749 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:11.750 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:11.750 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:12.156 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:12.156 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:12.156 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:12.157 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:12.181 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:12.181 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:12.184 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:12.581 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:12.582 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:12.582 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:12.582 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:12.593 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:12.593 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:12.685 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:12.993 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:12.993 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:12.993 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:12.993 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:13.007 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:13.007 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:13.188 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:13.409 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:13.409 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:13.409 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:13.412 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:13.417 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:13.417 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:13.689 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:13.821 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:13.821 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:13.821 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:13.821 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:13.850 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:13.850 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:14.190 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:14.250 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:14.250 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:14.251 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:14.252 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:14.267 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:14.267 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:14.669 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:14.669 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:14.669 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:14.670 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:14.694 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:14.698 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:14.698 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:15.100 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:15.101 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:15.101 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:15.102 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:15.123 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:15.123 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:15.194 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:15.527 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:15.527 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:15.527 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:15.529 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:15.534 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:15.534 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:15.696 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:15.943 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:15.943 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:15.943 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:15.944 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:15.966 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:15.966 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:16.199 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:16.369 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:16.369 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:16.369 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:16.370 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:16.375 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:16.375 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:16.701 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:16.778 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:16.778 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:16.778 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:16.778 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:16.812 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:16.812 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:17.204 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:17.214 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:17.214 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:17.214 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:17.215 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:17.243 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:17.243 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:17.644 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:17.644 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:17.644 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:17.645 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:17.652 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:17.652 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:17.706 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:18.052 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:18.053 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:18.053 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:18.054 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:18.071 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:18.071 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:18.206 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:18.473 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:18.474 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:18.474 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:18.475 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:18.478 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:18.478 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:18.709 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:18.881 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:18.881 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:18.881 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:18.882 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:18.885 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:18.885 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:19.210 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:19.286 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:19.287 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:19.287 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:19.288 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:19.291 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:19.291 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:19.692 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:19.692 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:19.692 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:19.692 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:19.712 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:19.712 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:20.112 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:20.112 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:20.113 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:20.113 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:20.115 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:20.115 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:20.214 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:20.516 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:20.516 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:20.516 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:20.517 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:20.534 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:20.534 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:20.716 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:20.935 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:20.935 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:20.936 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:20.937 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:20.966 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:20.967 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:21.223 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:21.369 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:21.394 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:21.394 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:21.395 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:21.402 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:21.403 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:21.724 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:21.742 10598 10598 E C01c10/ImsaKit: line: 1319, function: GetText,failed to get uv entry.
+07-10 07:56:21.807 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:21.808 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:21.809 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:21.819 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:21.821 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:21.821 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:22.224 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:22.224 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:22.224 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:22.225 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:22.225 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:22.226 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:22.226 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:22.301 10598 10598 W C02805/ClientMsgHandler: [K:D:2870|163]The client receives a key, Fd:39
+07-10 07:56:22.301 10598 10598 I C02805/InputManagerImpl: [K:D:2870|631]id:2870 recv
+07-10 07:56:22.301 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:30,InputId:2870,wid:59
+07-10 07:56:22.301 10598 10598 I C02805/InputManagerImpl: [K:D:2870|656]Key event report keyCode:<private>, id:2870 recv
+07-10 07:56:22.301 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2870, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.352 10598 10598 W C02805/ClientMsgHandler: [K:U:2871|163]The client receives a key, Fd:39
+07-10 07:56:22.352 10598 10598 I C02805/InputManagerImpl: [K:U:2871|631]id:2871 recv
+07-10 07:56:22.352 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:31,InputId:2871,wid:59
+07-10 07:56:22.352 10598 10598 I C02805/InputManagerImpl: [K:U:2871|656]Key event report keyCode:<private>, id:2871 recv
+07-10 07:56:22.352 10598 10598 W C02805/ClientMsgHandler: [K:D:2872|163]The client receives a key, Fd:39
+07-10 07:56:22.352 10598 10598 I C02805/InputManagerImpl: [K:D:2872|631]id:2872 recv
+07-10 07:56:22.352 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:32,InputId:2872,wid:59
+07-10 07:56:22.353 10598 10598 I C02805/InputManagerImpl: [K:D:2872|656]Key event report keyCode:<private>, id:2872 recv
+07-10 07:56:22.353 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2871, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.353 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2872, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.404 10598 10598 W C02805/ClientMsgHandler: [K:U:2873|163]The client receives a key, Fd:39
+07-10 07:56:22.404 10598 10598 I C02805/InputManagerImpl: [K:U:2873|631]id:2873 recv
+07-10 07:56:22.404 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:33,InputId:2873,wid:59
+07-10 07:56:22.404 10598 10598 I C02805/InputManagerImpl: [K:U:2873|656]Key event report keyCode:<private>, id:2873 recv
+07-10 07:56:22.405 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2873, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.405 10598 10598 W C02805/ClientMsgHandler: [K:D:2874|163]The client receives a key, Fd:39
+07-10 07:56:22.405 10598 10598 I C02805/InputManagerImpl: [K:D:2874|631]id:2874 recv
+07-10 07:56:22.405 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:34,InputId:2874,wid:59
+07-10 07:56:22.405 10598 10598 I C02805/InputManagerImpl: [K:D:2874|656]Key event report keyCode:<private>, id:2874 recv
+07-10 07:56:22.405 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2874, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.457 10598 10598 W C02805/ClientMsgHandler: [K:U:2875|163]The client receives a key, Fd:39
+07-10 07:56:22.457 10598 10598 I C02805/InputManagerImpl: [K:U:2875|631]id:2875 recv
+07-10 07:56:22.457 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:35,InputId:2875,wid:59
+07-10 07:56:22.457 10598 10598 I C02805/InputManagerImpl: [K:U:2875|656]Key event report keyCode:<private>, id:2875 recv
+07-10 07:56:22.457 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2875, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.458 10598 10598 W C02805/ClientMsgHandler: [K:D:2876|163]The client receives a key, Fd:39
+07-10 07:56:22.458 10598 10598 I C02805/InputManagerImpl: [K:D:2876|631]id:2876 recv
+07-10 07:56:22.458 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:36,InputId:2876,wid:59
+07-10 07:56:22.459 10598 10598 I C02805/InputManagerImpl: [K:D:2876|656]Key event report keyCode:<private>, id:2876 recv
+07-10 07:56:22.459 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2876, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.510 10598 10598 W C02805/ClientMsgHandler: [K:U:2877|163]The client receives a key, Fd:39
+07-10 07:56:22.510 10598 10598 I C02805/InputManagerImpl: [K:U:2877|631]id:2877 recv
+07-10 07:56:22.510 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:37,InputId:2877,wid:59
+07-10 07:56:22.511 10598 10598 I C02805/InputManagerImpl: [K:U:2877|656]Key event report keyCode:<private>, id:2877 recv
+07-10 07:56:22.511 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2877, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.513 10598 10598 W C02805/ClientMsgHandler: [K:D:2878|163]The client receives a key, Fd:39
+07-10 07:56:22.513 10598 10598 I C02805/InputManagerImpl: [K:D:2878|631]id:2878 recv
+07-10 07:56:22.513 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:38,InputId:2878,wid:59
+07-10 07:56:22.514 10598 10598 I C02805/InputManagerImpl: [K:D:2878|656]Key event report keyCode:<private>, id:2878 recv
+07-10 07:56:22.515 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2878, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.567 10598 10598 W C02805/ClientMsgHandler: [K:U:2879|163]The client receives a key, Fd:39
+07-10 07:56:22.567 10598 10598 I C02805/InputManagerImpl: [K:U:2879|631]id:2879 recv
+07-10 07:56:22.567 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:39,InputId:2879,wid:59
+07-10 07:56:22.568 10598 10598 I C02805/InputManagerImpl: [K:U:2879|656]Key event report keyCode:<private>, id:2879 recv
+07-10 07:56:22.568 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2879, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.569 10598 10598 W C02805/ClientMsgHandler: [K:D:2880|163]The client receives a key, Fd:39
+07-10 07:56:22.569 10598 10598 I C02805/InputManagerImpl: [K:D:2880|631]id:2880 recv
+07-10 07:56:22.569 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:40,InputId:2880,wid:59
+07-10 07:56:22.569 10598 10598 I C02805/InputManagerImpl: [K:D:2880|656]Key event report keyCode:<private>, id:2880 recv
+07-10 07:56:22.569 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2880, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.622 10598 10598 W C02805/ClientMsgHandler: [K:U:2881|163]The client receives a key, Fd:39
+07-10 07:56:22.622 10598 10598 I C02805/InputManagerImpl: [K:U:2881|631]id:2881 recv
+07-10 07:56:22.622 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:41,InputId:2881,wid:59
+07-10 07:56:22.622 10598 10598 I C02805/InputManagerImpl: [K:U:2881|656]Key event report keyCode:<private>, id:2881 recv
+07-10 07:56:22.623 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2881, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.624 10598 10598 W C02805/ClientMsgHandler: [K:D:2882|163]The client receives a key, Fd:39
+07-10 07:56:22.624 10598 10598 I C02805/InputManagerImpl: [K:D:2882|631]id:2882 recv
+07-10 07:56:22.624 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:42,InputId:2882,wid:59
+07-10 07:56:22.624 10598 10598 I C02805/InputManagerImpl: [K:D:2882|656]Key event report keyCode:<private>, id:2882 recv
+07-10 07:56:22.624 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2882, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.626 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:22.626 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:22.626 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:22.627 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:22.655 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:22.655 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:22.676 10598 10598 W C02805/ClientMsgHandler: [K:U:2883|163]The client receives a key, Fd:39
+07-10 07:56:22.676 10598 10598 I C02805/InputManagerImpl: [K:U:2883|631]id:2883 recv
+07-10 07:56:22.676 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:43,InputId:2883,wid:59
+07-10 07:56:22.676 10598 10598 I C01c10/ImsaKit: line: 1131, function: PrintKeyEventLog,KeyEventCountInPeriod: 44, startTime: 1783641362, endTime: 1783641382
+07-10 07:56:22.676 10598 10598 I C02805/InputManagerImpl: [K:U:2883|656]Key event report keyCode:<private>, id:2883 recv
+07-10 07:56:22.676 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2883, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.677 10598 10598 W C02805/ClientMsgHandler: [K:D:2884|163]The client receives a key, Fd:39
+07-10 07:56:22.677 10598 10598 I C02805/InputManagerImpl: [K:D:2884|631]id:2884 recv
+07-10 07:56:22.677 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:44,InputId:2884,wid:59
+07-10 07:56:22.677 10598 10598 I C02805/InputManagerImpl: [K:D:2884|656]Key event report keyCode:<private>, id:2884 recv
+07-10 07:56:22.677 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2884, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.726 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:22.728 10598 10598 W C02805/ClientMsgHandler: [K:U:2885|163]The client receives a key, Fd:39
+07-10 07:56:22.728 10598 10598 I C02805/InputManagerImpl: [K:U:2885|631]id:2885 recv
+07-10 07:56:22.728 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:45,InputId:2885,wid:59
+07-10 07:56:22.729 10598 10598 I C02805/InputManagerImpl: [K:U:2885|656]Key event report keyCode:<private>, id:2885 recv
+07-10 07:56:22.729 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2885, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.730 10598 10598 W C02805/ClientMsgHandler: [K:D:2886|163]The client receives a key, Fd:39
+07-10 07:56:22.730 10598 10598 I C02805/InputManagerImpl: [K:D:2886|631]id:2886 recv
+07-10 07:56:22.730 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:46,InputId:2886,wid:59
+07-10 07:56:22.730 10598 10598 I C02805/InputManagerImpl: [K:D:2886|656]Key event report keyCode:<private>, id:2886 recv
+07-10 07:56:22.730 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2886, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.780 10598 10598 W C02805/ClientMsgHandler: [K:U:2887|163]The client receives a key, Fd:39
+07-10 07:56:22.780 10598 10598 I C02805/InputManagerImpl: [K:U:2887|631]id:2887 recv
+07-10 07:56:22.780 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:47,InputId:2887,wid:59
+07-10 07:56:22.781 10598 10598 I C02805/InputManagerImpl: [K:U:2887|656]Key event report keyCode:<private>, id:2887 recv
+07-10 07:56:22.781 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2887, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.781 10598 10598 W C02805/ClientMsgHandler: [K:D:2888|163]The client receives a key, Fd:39
+07-10 07:56:22.781 10598 10598 I C02805/InputManagerImpl: [K:D:2888|631]id:2888 recv
+07-10 07:56:22.781 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:48,InputId:2888,wid:59
+07-10 07:56:22.781 10598 10598 I C02805/InputManagerImpl: [K:D:2888|656]Key event report keyCode:<private>, id:2888 recv
+07-10 07:56:22.781 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2888, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.831 10598 10598 W C02805/ClientMsgHandler: [K:U:2889|163]The client receives a key, Fd:39
+07-10 07:56:22.831 10598 10598 I C02805/InputManagerImpl: [K:U:2889|631]id:2889 recv
+07-10 07:56:22.831 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:49,InputId:2889,wid:59
+07-10 07:56:22.832 10598 10598 I C02805/InputManagerImpl: [K:U:2889|656]Key event report keyCode:<private>, id:2889 recv
+07-10 07:56:22.832 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2889, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.832 10598 10598 W C02805/ClientMsgHandler: [K:D:2890|163]The client receives a key, Fd:39
+07-10 07:56:22.832 10598 10598 I C02805/InputManagerImpl: [K:D:2890|631]id:2890 recv
+07-10 07:56:22.832 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:50,InputId:2890,wid:59
+07-10 07:56:22.832 10598 10598 I C02805/InputManagerImpl: [K:D:2890|656]Key event report keyCode:<private>, id:2890 recv
+07-10 07:56:22.832 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2890, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.882 10598 10598 W C02805/ClientMsgHandler: [K:U:2891|163]The client receives a key, Fd:39
+07-10 07:56:22.882 10598 10598 I C02805/InputManagerImpl: [K:U:2891|631]id:2891 recv
+07-10 07:56:22.882 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:51,InputId:2891,wid:59
+07-10 07:56:22.883 10598 10598 I C02805/InputManagerImpl: [K:U:2891|656]Key event report keyCode:<private>, id:2891 recv
+07-10 07:56:22.883 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2891, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.883 10598 10598 W C02805/ClientMsgHandler: [K:D:2892|163]The client receives a key, Fd:39
+07-10 07:56:22.883 10598 10598 I C02805/InputManagerImpl: [K:D:2892|631]id:2892 recv
+07-10 07:56:22.883 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:52,InputId:2892,wid:59
+07-10 07:56:22.883 10598 10598 I C02805/InputManagerImpl: [K:D:2892|656]Key event report keyCode:<private>, id:2892 recv
+07-10 07:56:22.883 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2892, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.934 10598 10598 W C02805/ClientMsgHandler: [K:U:2893|163]The client receives a key, Fd:39
+07-10 07:56:22.934 10598 10598 I C02805/InputManagerImpl: [K:U:2893|631]id:2893 recv
+07-10 07:56:22.934 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:53,InputId:2893,wid:59
+07-10 07:56:22.934 10598 10598 I C02805/InputManagerImpl: [K:U:2893|656]Key event report keyCode:<private>, id:2893 recv
+07-10 07:56:22.934 10598 10598 W C02805/ClientMsgHandler: [K:D:2894|163]The client receives a key, Fd:39
+07-10 07:56:22.934 10598 10598 I C02805/InputManagerImpl: [K:D:2894|631]id:2894 recv
+07-10 07:56:22.934 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:54,InputId:2894,wid:59
+07-10 07:56:22.935 10598 10598 I C02805/InputManagerImpl: [K:D:2894|656]Key event report keyCode:<private>, id:2894 recv
+07-10 07:56:22.935 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2893, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.935 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2894, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.985 10598 10598 W C02805/ClientMsgHandler: [K:U:2895|163]The client receives a key, Fd:39
+07-10 07:56:22.985 10598 10598 I C02805/InputManagerImpl: [K:U:2895|631]id:2895 recv
+07-10 07:56:22.985 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:55,InputId:2895,wid:59
+07-10 07:56:22.985 10598 10598 I C02805/InputManagerImpl: [K:U:2895|656]Key event report keyCode:<private>, id:2895 recv
+07-10 07:56:22.986 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2895, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:22.986 10598 10598 W C02805/ClientMsgHandler: [K:D:2896|163]The client receives a key, Fd:39
+07-10 07:56:22.986 10598 10598 I C02805/InputManagerImpl: [K:D:2896|631]id:2896 recv
+07-10 07:56:22.986 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:56,InputId:2896,wid:59
+07-10 07:56:22.986 10598 10598 I C02805/InputManagerImpl: [K:D:2896|656]Key event report keyCode:<private>, id:2896 recv
+07-10 07:56:22.986 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2896, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:23.037 10598 10598 W C02805/ClientMsgHandler: [K:U:2897|163]The client receives a key, Fd:39
+07-10 07:56:23.037 10598 10598 I C02805/InputManagerImpl: [K:U:2897|631]id:2897 recv
+07-10 07:56:23.037 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:57,InputId:2897,wid:59
+07-10 07:56:23.037 10598 10598 I C02805/InputManagerImpl: [K:U:2897|656]Key event report keyCode:<private>, id:2897 recv
+07-10 07:56:23.037 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2897, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:23.037 10598 10598 W C02805/ClientMsgHandler: [K:D:2898|163]The client receives a key, Fd:39
+07-10 07:56:23.037 10598 10598 I C02805/InputManagerImpl: [K:D:2898|631]id:2898 recv
+07-10 07:56:23.037 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:58,InputId:2898,wid:59
+07-10 07:56:23.037 10598 10598 I C02805/InputManagerImpl: [K:D:2898|656]Key event report keyCode:<private>, id:2898 recv
+07-10 07:56:23.037 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2898, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:23.056 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.056 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:23.056 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:23.056 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:23.079 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:23.079 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.088 10598 10598 W C02805/ClientMsgHandler: [K:U:2899|163]The client receives a key, Fd:39
+07-10 07:56:23.088 10598 10598 I C02805/InputManagerImpl: [K:U:2899|631]id:2899 recv
+07-10 07:56:23.088 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:59,InputId:2899,wid:59
+07-10 07:56:23.088 10598 10598 I C02805/InputManagerImpl: [K:U:2899|656]Key event report keyCode:<private>, id:2899 recv
+07-10 07:56:23.090 10598 10703 I C0420c/WMSEvent: DispatchKeyEventCallback: id: 2899, consumed: 0,escTrigger: 0, escDown: 0
+07-10 07:56:23.227 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.481 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.481 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:23.481 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:23.482 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:23.486 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:23.486 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.729 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.886 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.886 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:23.886 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:23.886 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:23.921 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:23.921 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.932 10598 10598 I C01c10/ImsaKit: line: 1250, function: SendFunctionKey,functionKey: 8
+07-10 07:56:23.932 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.944 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.945 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:23.961 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:24.328 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:24.329 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:24.329 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:24.330 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:24.331 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:24.331 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:24.430 10598 10897 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:24.445 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:24.732 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:24.733 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:24.733 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:24.733 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:24.747 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:24.747 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:24.951 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:25.155 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:25.155 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:25.155 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:25.159 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:25.169 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:25.169 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:25.461 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:25.570 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:25.570 10598 12194 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:25.570 10598 12194 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:25.571 10598 12194 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:25.597 10598 12194 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:25.597 10598 12194 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:25.964 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:26.002 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:56:26.002 10598 12193 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:56:26.002 10598 12193 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:56:26.002 10598 12193 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:56:26.032 10598 12193 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:56:26.032 10598 12193 D A00000/runOnMainThread: runOnMainThread success
+

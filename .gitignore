@@ -1,0 +1,62 @@
+# ===== macOS =====
+.DS_Store
+
+# ===== Rust =====
+# cargo 构建产物（根目录 / MirrorServer / MobileApp/shared）
+target/
+# MobileApp/shared 的构建输出（XCFramework、.so 等）
+MobileApp/shared/build/
+
+# ===== 通用构建产物 =====
+# 各端 build 目录（Android app/build、harmonyApp entry/build 等）
+build/
+# 构建脚本从 MobileApp/shared/target 拷贝出来的 Rust 核心库，属派生产物
+MobileApp/harmonyApp/entry/libs/
+MobileApp/androidApp/app/src/main/jniLibs/
+
+# ===== Android =====
+.gradle/
+# macOS Finder 元数据
+.DS_Store
+.idea/
+.kotlin/
+local.properties
+*.iml
+
+# ===== HarmonyOS =====
+oh_modules/
+.hvigor/
+.cxx
+node_modules/
+/.appanalyzer
+
+# ===== iOS / Xcode =====
+# Termirror.xcodeproj 由 XcodeGen 根据 project.yml 生成，不入库
+MobileApp/iosApp/Termirror.xcodeproj/
+DerivedData/
+xcuserdata/
+# Xcode 用户本地状态
+**/xcuserdata/
+*.xcuserstate
+
+# ===== IDE =====
+.idea/
+.vscode/
+# SSH 依赖：静态库构建产物（由 MobileApp/shared/scripts/build-ssh-dependencies.sh 生成）
+/MobileApp/shared/build/
+# SSH 依赖：第三方源码克隆（mbedtls / libssh2，pinned commit 见 AGENTS.md）
+/MobileApp/shared/third_party/mbedtls/
+/MobileApp/shared/third_party/libssh2/
+
+# TermMirror 鸿蒙工程 Rust 核心构建产物（由 MobileApp/shared/scripts/build-ohos.sh 生成）
+/MobileApp/harmonyApp/entry/libs/**/*.so
+
+# ===== 签名与密钥（防止误提交）=====
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+# Android 构建时复制的 Rust 核心库（由 copyRustLibs 任务生成）
+/MobileApp/androidApp/app/src/main/jniLibs/
+build/
+.gradle/

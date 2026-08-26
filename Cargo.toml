@@ -1,0 +1,3 @@
+[workspace]
+members = ["MirrorServer"]
+resolver = "2"

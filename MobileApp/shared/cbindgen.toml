@@ -1,0 +1,15 @@
+# cbindgen 配置：为 termirror_core 的 C ABI 导出生成 C 头文件
+# 用法：scripts/gen-header.sh（产物：ffi/include/termirror_core.h）
+
+language = "C"
+include_guard = "TERMIRROR_CORE_H"
+pragma_once = true
+autogen_warning = "/* 本文件由 cbindgen 自动生成，请勿手工编辑 */"
+usize_is_size_t = true
+
+# 展开 cfg 属性，排除 HarmonyOS 专用 NAPI 符号，确保头文件可被 Android/iOS 使用。
+[parse.expand]
+crates = ["termirror_core"]
+
+[enum]
+prefix_with_name = true

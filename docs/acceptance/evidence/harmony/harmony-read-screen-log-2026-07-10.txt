@@ -1,0 +1,77 @@
+07-10 07:55:38.855 10598 10598 I C02805/InputKeyFlow: [P:D:2832|247]ac: down: 2832
+07-10 07:55:38.855 10598 10598 I C02805/InputKeyFlow: [P:D:2832|704]recv
+07-10 07:55:38.856 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:6,InputId:2832,wid:59,ac:2
+07-10 07:55:38.856 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2832, fId:10000, T:0, I=0, M=0
+07-10 07:55:38.857 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2832, TTHNI:fId: 10000{ T: Stack, D: 11 };
+07-10 07:55:38.857 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2832, TTHRTI: 
+07-10 07:55:38.857 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.858 10598 10598 I C03919/AceInputTracking: [(100000:100000:scope)] Consumed id:2832, last id:-1
+07-10 07:55:38.858 10598 10598 I C04213/InputKeyFlow: ConsumePointerEventInner: InputId:2832,wid:59,pointId:10000,srcType:2,rect:[0,0,1256,2760],notify:1
+07-10 07:55:38.873 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.873 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.890 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.959 10598 10598 I C02805/InputKeyFlow: [P:U:2833|247]ac: up: 2833
+07-10 07:55:38.959 10598 10598 I C02805/InputKeyFlow: [P:U:2833|704]recv
+07-10 07:55:38.960 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:7,InputId:2833,wid:59,ac:4
+07-10 07:55:38.960 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2833, fId:10000, T:1, I=0, M=0
+07-10 07:55:38.960 10598 10598 I C03934/AceUIEvent: [(100000:100000:scope)] TpFlush end by up event
+07-10 07:55:38.961 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.961 10598 10598 I C03919/AceInputTracking: [(100000:100000:scope)] Consumed id:2833, last id:-1
+07-10 07:55:38.961 10598 10598 I C04213/InputKeyFlow: ConsumePointerEventInner: InputId:2833,wid:59,pointId:10000,srcType:2,rect:[0,0,1256,2760],notify:1
+07-10 07:55:38.969 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.972 10598 10598 I A00000/Konan_main: [INFO] FONT loadPlatformTypes: family=FontFamily.SansSerif, weight=400, intercepted=400, aliases=[HarmonyOS Sans, Sans-serif], found=yes
+07-10 07:55:38.986 10598 10598 E C01402/2DGraphics: LoadFromTypeface: Drawing_Text [LoadFromTypeface] not variable font!
+07-10 07:55:38.990 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.991 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:38.992 10598 10598 I A00000/TerminalScreen: entering tab cat of window cat
+07-10 07:55:38.992 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:55:38.992 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:55:38.993 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:55:39.009 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:39.018 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:55:39.018 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:39.032 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:39.033 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:39.049 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:39.421 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:39.422 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:55:39.422 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:55:39.426 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:55:39.436 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:55:39.436 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:39.838 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:39.839 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:55:39.839 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:55:39.839 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:55:39.845 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:55:39.845 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:40.250 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:40.251 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:55:40.251 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:55:40.252 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:55:40.264 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:55:40.264 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:40.665 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:40.665 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:55:40.665 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:55:40.666 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:55:40.670 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:55:40.670 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:41.073 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:41.073 10598 10680 D A00000/TcpTerminalClient: reading screen for window=pty-1783641311026-1 tab=cat
+07-10 07:55:41.073 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:55:41.074 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:55:41.075 10598 10680 D A00000/TcpTerminalClient: read 52 chars
+07-10 07:55:41.075 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+

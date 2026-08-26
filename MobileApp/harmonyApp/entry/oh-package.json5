@@ -1,0 +1,12 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "TermMirror 纯 ArkTS 鸿蒙壳工程",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    // Rust 核心库 NAPI 声明（libtermirror_core.so 由 MobileApp/shared 产出，放入 entry/libs/<abi>/）
+    "libtermirror_core.so": "file:./src/main/cpp/types/libtermirror_core"
+  }
+}

@@ -1,0 +1,5 @@
+43150 Ss   /bin/zsh -c ps -axo pid,stat,command | rg 'qemu-system|emulator.*Attach' | tee docs/acceptance/evidence/android/android-final-emulator-processes-2026-07-10.txt
+43155 R    rg qemu-system|emulator.*Attach
+91587 UEs+ /Users/xpeng/Library/Android/sdk/emulator/qemu/darwin-aarch64/qemu-system-aarch64 -avd AttachTest36b -no-snapshot-save -no-audio -no-boot-anim
+95466 UEs+ /Users/xpeng/Library/Android/sdk/emulator/qemu/darwin-aarch64/qemu-system-aarch64 -avd AttachTest36 -no-snapshot-save -no-audio -no-boot-anim
+27935 Ss+  /Users/xpeng/Library/Android/sdk/emulator/qemu/darwin-aarch64/qemu-system-aarch64 -avd AttachE2E36 -port 5560 -no-snapshot-save -no-audio -no-boot-anim

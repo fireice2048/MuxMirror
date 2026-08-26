@@ -1,0 +1,13 @@
+# 预编译 libssh2（HarmonyOS arm64-v8a）的 pkg-config 描述文件
+# 产物由 MobileApp/shared/scripts/build-ssh-dependencies.sh 生成。
+# 使用 ${pcfiledir} 相对定位（本文件在 <仓库根>/MobileApp/shared/pkgconfig/arm64-v8a/ 下），
+# 仓库整体移动后仍可用。
+shared=${pcfiledir}/../..
+libdir=${shared}/build/ohos-ssh/arm64-v8a
+includedir=${shared}/third_party/libssh2/include
+
+Name: libssh2
+Description: SSH2 client library (OHOS arm64-v8a prebuilt)
+Version: 1.11.1
+Libs: -L${libdir}/libssh2/src -lssh2 -L${libdir}/mbedtls/library -lmbedcrypto
+Cflags: -I${includedir}

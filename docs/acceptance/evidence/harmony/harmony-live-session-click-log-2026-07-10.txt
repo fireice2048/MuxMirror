@@ -1,0 +1,90 @@
+07-10 07:55:03.130 10598 10960 I C02d10/HiViewRemoteService: GetHiViewRemoteService: refresh remote service instance.
+07-10 07:55:03.132 10598 10598 I C03f00/ArkCompiler: [gc] IdleGCTrigger: trigger full gc
+07-10 07:55:03.134 10598 10598 E C01707/CONCUR: [Interface] task 10679 apply qos failed, errno = 4
+07-10 07:55:03.135 10598 10598 E C01707/CONCUR: [Interface] task 10678 apply qos failed, errno = 4
+07-10 07:55:03.136 10598 10598 E C01707/CONCUR: [Interface] task 10677 apply qos failed, errno = 4
+07-10 07:55:03.141 10598 10598 E C01707/CONCUR: [Interface] task 10679 apply qos failed, errno = 4
+07-10 07:55:03.142 10598 10598 E C01707/CONCUR: [Interface] task 10678 apply qos failed, errno = 4
+07-10 07:55:03.143 10598 10598 E C01707/CONCUR: [Interface] task 10677 apply qos failed, errno = 4
+07-10 07:55:09.811 10598 10598 I C02805/InputKeyFlow: [P:D:2828|247]ac: down: 2828
+07-10 07:55:09.811 10598 10598 I C02805/InputKeyFlow: [P:D:2828|704]recv
+07-10 07:55:09.811 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:2,InputId:2828,wid:59,ac:2
+07-10 07:55:09.812 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2828, fId:10000, T:0, I=0, M=0
+07-10 07:55:09.812 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2828, TTHNI:fId: 10000{ T: Stack, D: 11 };
+07-10 07:55:09.812 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2828, TTHRTI: 
+07-10 07:55:09.813 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.814 10598 10598 I C03919/AceInputTracking: [(100000:100000:scope)] Consumed id:2828, last id:-1
+07-10 07:55:09.814 10598 10598 I C04213/InputKeyFlow: ConsumePointerEventInner: InputId:2828,wid:59,pointId:10000,srcType:2,rect:[0,0,1256,2760],notify:1
+07-10 07:55:09.821 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.821 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.837 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.839 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.854 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.870 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.885 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.904 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.916 10598 10598 I C02805/InputKeyFlow: [P:U:2829|247]ac: up: 2829
+07-10 07:55:09.916 10598 10598 I C02805/InputKeyFlow: [P:U:2829|704]recv
+07-10 07:55:09.916 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:3,InputId:2829,wid:59,ac:4
+07-10 07:55:09.916 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2829, fId:10000, T:1, I=0, M=0
+07-10 07:55:09.916 10598 10598 I C03934/AceUIEvent: [(100000:100000:scope)] TpFlush end by up event
+07-10 07:55:09.917 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.917 10598 10598 I C03919/AceInputTracking: [(100000:100000:scope)] Consumed id:2829, last id:-1
+07-10 07:55:09.917 10598 10598 I C04213/InputKeyFlow: ConsumePointerEventInner: InputId:2829,wid:59,pointId:10000,srcType:2,rect:[0,0,1256,2760],notify:1
+07-10 07:55:09.917 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.923 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.923 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.923 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.923 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:09.940 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:11.960 10598 10598 I C02805/InputKeyFlow: [P:D:2830|247]ac: down: 2830
+07-10 07:55:11.960 10598 10598 I C02805/InputKeyFlow: [P:D:2830|704]recv
+07-10 07:55:11.960 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:4,InputId:2830,wid:59,ac:2
+07-10 07:55:11.961 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2830, fId:10000, T:0, I=0, M=0
+07-10 07:55:11.961 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2830, TTHNI:fId: 10000{ T: Stack, D: 11 };
+07-10 07:55:11.961 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2830, TTHRTI: 
+07-10 07:55:11.961 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:11.961 10598 10598 I C03919/AceInputTracking: [(100000:100000:scope)] Consumed id:2830, last id:-1
+07-10 07:55:11.961 10598 10598 I C04213/InputKeyFlow: ConsumePointerEventInner: InputId:2830,wid:59,pointId:10000,srcType:2,rect:[0,0,1256,2760],notify:1
+07-10 07:55:11.962 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:11.962 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:11.978 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.064 10598 10598 I C02805/InputKeyFlow: [P:U:2831|247]ac: up: 2831
+07-10 07:55:12.064 10598 10598 I C02805/InputKeyFlow: [P:U:2831|704]recv
+07-10 07:55:12.064 10598 10598 I C04213/InputKeyFlow: HandleInputEvent: eid:5,InputId:2831,wid:59,ac:4
+07-10 07:55:12.064 10598 10598 I C03951/InputKeyFlow: [(100000:100000:scope)] ITK Id:2831, fId:10000, T:1, I=0, M=0
+07-10 07:55:12.064 10598 10598 I C03934/AceUIEvent: [(100000:100000:scope)] TpFlush end by up event
+07-10 07:55:12.065 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.065 10598 10598 I C03919/AceInputTracking: [(100000:100000:scope)] Consumed id:2831, last id:-1
+07-10 07:55:12.065 10598 10598 I C04213/InputKeyFlow: ConsumePointerEventInner: InputId:2831,wid:59,pointId:10000,srcType:2,rect:[0,0,1256,2760],notify:1
+07-10 07:55:12.073 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.074 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.075 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.075 10598 10598 I A00000/AttachApp: opening server Local PCServer (10.184.126.32:48740)
+07-10 07:55:12.075 10598 10680 I A00000/TcpTerminalClient: listing sessions from 10.184.126.32:48740
+07-10 07:55:12.075 10598 10680 D A00000/TcpTerminalClient: request to 10.184.126.32:48740
+07-10 07:55:12.077 10598 10680 D A00000/TcpConnection: connected to 10.184.126.32:48740
+07-10 07:55:12.092 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.387 10598 10680 I A00000/TcpTerminalClient: loaded 1 sessions
+07-10 07:55:12.388 10598 10680 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.388 10598 10598 I A00000/AttachApp: loaded 1 windows for Local PCServer
+07-10 07:55:12.391 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.393 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.393 10598 10598 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:12.409 10598 10722 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:14.412 10598 10897 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:14.412 10598 10897 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:14.412 10598 10897 D A00000/runOnMainThread: runOnMainThread success
+07-10 07:55:14.412 10598 10897 D A00000/runOnMainThread: runOnMainThread success
+
