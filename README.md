@@ -5,6 +5,16 @@ MuxMirror 是一个远程终端工具：手机 App 通过 SSH 直连电脑，远
 - `MirrorServer/`：电脑端 CLI（macOS），负责终端窗口枚举、画面同步、输入转发。
 - `MobileApp/`：手机端 App，支持 HarmonyOS / Android / iOS。
 
+## 界面预览
+
+![MuxMirror 演示：服务器列表 → 终端 → MUX 导航](docs/assets/muxmirror-demo.gif)
+
+| 服务器列表 | 终端 | MUX 导航 |
+|---|---|---|
+| ![服务器列表](docs/assets/screenshot-server-list.png) | ![终端](docs/assets/screenshot-terminal.png) | ![MUX 导航](docs/assets/screenshot-navigation.png) |
+
+以上为 Android 端真实截图：模拟器经 `10.0.2.2` SSH 直连本机，MUX 导航按工作目录分组展示本机 tmux 会话。
+
 ## 一、电脑端安装（macOS）
 
 前置要求：Rust 工具链（cargo）、Xcode Command Line Tools（swiftc）。
@@ -35,7 +45,7 @@ scripts/install-muxmirror.sh
 为配合手机端远程操作，建议电脑端 Apple Terminal 配置「开终端自动进 tmux、新标签页继承当前路径、关标签页自动清理会话」。
 
 ### `~/.tmux.conf`
-
+非必须
 ```tmux
 set -g history-limit 5000
 set -g mouse off
@@ -47,59 +57,107 @@ bind-key d set-option destroy-unattached off \; detach-client -E 'TERMHOOK_TMUX_
 ```
 
 ### `~/.zshrc` 追加
-
+如果你不需要启动终端自动进入 tmux，那么可忽略
 ```sh
-# ── 每个标签页自动启动独立 tmux 会话 ──
+# 进入终端后自动启动 tmux；已经在 tmux/rmux 里就不再重入。
+# 每个新终端窗口自增编号开启新会话 tab-${id}:
+#   初次读不到id记录就当current_id=0，新会话用 current_id+1，再把 current_id 写入持久状态
+# 每次新建终端窗口，都cd ~/，新标签页继承当前窗口的最新当前路径:
+#   需要记录每个终端窗口的当前目录，测试用例：新建终端窗口A，当前目录应该是在~/，执行cd path1, 新建标签页，会
+#   自动cd 到path1，新建终端窗口B，cd path2, 新建标签页，会自动cd 到path2，再回到终端窗口A，新建标签页，需
+#   要自动cd 到path1，而不是path2
 start_tmux_once() {
-    # 已在 tmux/rmux 里不重入
-    [ -n "$TMUX" ] || [ -n "$RMUX_SESSION" ] || [ -n "$RMUX" ] && return 0
-    [ -n "$TERMHOOK_TMUX_DETACHED" ] && return 0
-    # SSH 远程会话（手机端）不自动启动 tmux——由手机端自行 attach 目标会话
-    [ -n "$SSH_CONNECTION" ] || [ -n "$SSH_TTY" ] && return 0
-    command -v tmux &>/dev/null || { echo "警告: tmux 未安装"; return 1; }
+    if [[ -o interactive
+        && -z "${SSH_CONNECTION:-}"
+        && -z "${TMUX:-}"
+        && -z "${RMUX:-}"
+        && -z "${TERMHOOK_TMUX_DETACHED:-}"
+        && "${TERM:-}" != (screen|tmux|rmux)*
+        && -n "${commands[tmux]:-}" ]]; then
+        _auto_start_tmux() {
+            local session_name
+            local next_id=1
+            local attempt=0
+            local tmux_exit_code=0
 
-    local session_name next_id=1 attempt=0
+            # 只统计 tab-N 会话；从当前最大编号继续递增，其他命名的会话不参与。
+            while IFS= read -r session_name; do
+                if [[ "$session_name" == tab-<-> ]]; then
+                    local num="${session_name#tab-}"
+                    if (( num >= next_id )); then
+                        next_id=$((num + 1))
+                    fi
+                fi
+            done < <(command tmux list-sessions -F '#{session_name}' 2>/dev/null)
 
-    while IFS= read -r session_name; do
-        [[ "$session_name" == tmux_<-> ]] || continue
-        local num="${session_name#tmux_}"
-        (( num >= next_id )) && next_id=$((num + 1))
-    done < <(tmux list-sessions -F '#{session_name}' 2>/dev/null)
-
-    while (( attempt < 20 )); do
-        session_name="tmux_${next_id}"
-        # 先原子创建 detached 会话，避免并发新建标签页时撞号。
-        if tmux new-session -d -s "$session_name" -c "$PWD"; then
-            tmux set-hook -t "$session_name" client-attached \
-                'set-option destroy-unattached on'
-            # 用 tmux client 替换登录 zsh，避免 Terminal 等待前台子进程超时。
-            exec tmux attach-session -t "=$session_name"
+            # 并发打开多个终端时，后启动者若撞号则继续尝试下一个编号。
+            while (( attempt < 20 )); do
+                # 先以 detached 模式原子占用会话名，避免撞号失败时 trap 误删其他会话。
+                command tmux new-session -d -s "tab-$next_id" -c "$PWD"
+                tmux_exit_code=$?
+                if (( tmux_exit_code == 0 )); then
+                    session_name="tab-$next_id"
+                    # attach 时启用服务端清理；还有手机 client 时会话会保留，最后
+                    # 一个 client 离开后才销毁。Ctrl-b d 的绑定会先关闭此选项。
+                    command tmux set-hook -t "$session_name" client-attached \
+                        'set-option destroy-unattached on'
+                    # 必须替换外层 zsh。若让 zsh 等待 tmux 子进程，Terminal.app
+                    # 关闭时会等待约 10 秒才销毁 TTY。
+                    exec tmux attach-session -t "=$session_name"
+                    return 1
+                fi
+                if command tmux has-session -t "=tab-$next_id" 2>/dev/null; then
+                    next_id=$((next_id + 1))
+                    attempt=$((attempt + 1))
+                else
+                    return "$tmux_exit_code"
+                fi
+            done
             return 1
-        fi
-        tmux has-session -t "=$session_name" 2>/dev/null || return 1
-        next_id=$((next_id + 1))
-        attempt=$((attempt + 1))
-    done
-    return 1
-}
+        }
 
-# ── tmux 内 cwd 上报（OSC 7）经 DCS passthrough 透传给 Apple Terminal ──
-_tmux_passthrough_cwd_setup() {
-    [[ -z "${TMUX:-}" ]] && return
-    (( $+functions[update_terminal_cwd] )) || source /etc/zshrc_Apple_Terminal 2>/dev/null
-    (( $+functions[update_terminal_cwd] )) || return
-    _tmux_passthrough_terminal_cwd() {
-        local seq esc=$'\e'
-        seq=$(update_terminal_cwd)
-        [[ -n "$seq" ]] && printf '\ePtmux;%s\e\\' "${seq//$esc/$esc$esc}"
-    }
-    autoload -Uz add-zsh-hook
-    add-zsh-hook precmd _tmux_passthrough_terminal_cwd
+        _auto_start_tmux
+        unfunction _auto_start_tmux
+    fi
+
+    # tmux 内把 cwd 上报（OSC 7）经 DCS passthrough 透传给外层终端（需 tmux 开启
+    # allow-passthrough）。否则终端只能记住标签页启动时的目录，tmux 内 cd 后新建
+    # 标签页不会跟随。
+    if [[ -n "${TMUX:-}" ]]; then
+        # tmux 会把 TERM_PROGRAM 改成 tmux，/etc/zshrc 按 TERM_PROGRAM 加载集成脚本，
+        # 因此 pane 内 update_terminal_cwd 未定义，需手动补载 Apple 终端集成。
+        (( $+functions[update_terminal_cwd] )) || source /etc/zshrc_Apple_Terminal
+        if (( $+functions[update_terminal_cwd] )); then
+            _tmux_passthrough_terminal_cwd() {
+                local seq esc=$'\e'
+                seq=$(update_terminal_cwd)
+                # 透传封装要求序列内的每个 ESC 翻倍（zsh 替换中的 $'' 不会展开，故用变量）
+                [[ -n "$seq" ]] && printf '\ePtmux;%s\e\\' "${seq//$esc/$esc$esc}"
+            }
+            autoload -Uz add-zsh-hook
+            add-zsh-hook precmd _tmux_passthrough_terminal_cwd
+        fi
+    fi
 }
 
 start_tmux_once
 unset TERMHOOK_TMUX_DETACHED
-_tmux_passthrough_cwd_setup
+
+
+# 标签页关闭时（zsh 退出），清理对应的 tmux 会话。
+# 仅当该会话已无其他 client 时才杀——手机 SSH 远程 attach 时它是另一个 client，不会被清理。
+_cleanup_tmux_on_exit() {
+    [[ -z "${TMUX:-}" ]] && return
+    # TMUX 格式: "session:window.pane"
+    local session="${TMUX%%:*}"
+    [[ -z "$session" ]] && return
+    # 稍等片刻让 client 真正 detach，再检查是否还有其他 client
+    ( sleep 0.2 && tmux has-session -t "=$session" 2>/dev/null \
+        && [ "$(tmux list-clients -t "=$session" 2>/dev/null | wc -l | tr -d ' ')" = "0" ] \
+        && tmux kill-session -t "=$session" 2>/dev/null ) &!
+}
+autoload -Uz add-zsh-hook
+add-zsh-hook zshexit _cleanup_tmux_on_exit
 ```
 
 ## 三、手机端 App 构建与安装
