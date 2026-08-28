@@ -58,6 +58,10 @@ bind-key d set-option destroy-unattached off \; detach-client -E 'TERMHOOK_TMUX_
 
 ### `~/.zshrc` 追加
 如果你不需要启动终端自动进入 tmux，那么可忽略
+
+<details>
+<summary>点击展开完整配置（约 100 行，展开后右上角复制按钮可复制全部）</summary>
+
 ```sh
 # 进入终端后自动启动 tmux；已经在 tmux/rmux 里就不再重入。
 # 每个新终端窗口自增编号开启新会话 tab-${id}:
@@ -159,6 +163,8 @@ _cleanup_tmux_on_exit() {
 autoload -Uz add-zsh-hook
 add-zsh-hook zshexit _cleanup_tmux_on_exit
 ```
+
+</details>
 
 ## 三、手机端 App 构建与安装
 
