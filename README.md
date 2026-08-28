@@ -45,7 +45,9 @@ scripts/install-muxmirror.sh
 为配合手机端远程操作，建议电脑端 Apple Terminal 配置「开终端自动进 tmux、新标签页继承当前路径、关标签页自动清理会话」。
 
 ### `~/.tmux.conf`
-非必须
+
+非必须，按需参考：
+
 ```tmux
 set -g history-limit 5000
 set -g mouse off
@@ -57,7 +59,8 @@ bind-key d set-option destroy-unattached off \; detach-client -E 'TERMHOOK_TMUX_
 ```
 
 ### `~/.zshrc` 追加
-如果你不需要启动终端自动进入 tmux，那么可忽略
+
+每次开启新终端，自动进入 tumx，自动分配 id，如果你不需要启动终端自动进入 tmux，那么可忽略。
 
 <details>
 <summary>点击展开完整配置（约 100 行，展开后右上角复制按钮可复制全部）</summary>
