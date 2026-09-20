@@ -342,11 +342,12 @@ export struct TerminalPage {
           Text(this.phase === 'connecting' ?
             `Loading · 正在连接 ${this.server.host}:${this.server.port}` : this.errorText)
             .fontSize(14)
+            .fontColor('#182431')
             .textAlign(TextAlign.Center)
             .copyOption(CopyOptions.InApp)
           Button(this.attachMux.mux.length > 0 ? '返回导航' : '返回服务器列表')
             .backgroundColor(Color.Transparent)
-            .fontColor($r('sys.color.ohos_id_color_primary'))
+            .fontColor($r('app.color.brand_primary'))
             .onClick(() => this.leaveTerminal(() => this.onBack()))
         }
         .width('100%')
@@ -362,6 +363,7 @@ export struct TerminalPage {
                 Text(this.server.name.length > 0 ? this.server.name : this.server.host)
                   .fontSize(16)
                   .fontWeight(FontWeight.Medium)
+                  .fontColor('#182431')
                 Text(`ssh ${this.server.username}@${this.server.host}:${this.server.port}`)
                   .fontSize(12)
                   .fontColor('#66182431')
@@ -371,7 +373,7 @@ export struct TerminalPage {
               if (this.showNavButton) {
                 Button('MUX...')
                   .backgroundColor(Color.Transparent)
-                  .fontColor($r('sys.color.ohos_id_color_primary'))
+                  .fontColor($r('app.color.brand_primary'))
                   .enabled(this.phase === 'connected')
                   .onClick(() => {
                     if (this.onOpenNav !== undefined) {
@@ -381,7 +383,7 @@ export struct TerminalPage {
               }
               Button('返回')
                 .backgroundColor(Color.Transparent)
-                .fontColor($r('sys.color.ohos_id_color_primary'))
+                .fontColor($r('app.color.brand_primary'))
                 .onClick(() => this.leaveTerminal(() => this.onBack()))
             }
             .width('100%')
@@ -441,5 +443,6 @@ export struct TerminalPage {
     }
     .width('100%')
     .height('100%')
+    .backgroundColor('#F5F6F8')
   }
 }

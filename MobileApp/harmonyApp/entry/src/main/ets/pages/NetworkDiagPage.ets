@@ -143,7 +143,7 @@ export struct NetworkDiagPage {
         .width(40)
         .height(40)
         .borderRadius(20)
-        .backgroundColor($r('sys.color.ohos_id_color_primary'))
+        .backgroundColor($r('app.color.brand_primary'))
         .onClick(() => {
           const command = this.input;
           this.input = '';

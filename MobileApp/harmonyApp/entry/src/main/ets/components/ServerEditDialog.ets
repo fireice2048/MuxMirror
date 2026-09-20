@@ -159,6 +159,8 @@ export struct ServerEditDialog {
           .onClick(() => this.controller.close())
         Button('保存')
           .layoutWeight(1)
+          .backgroundColor($r('app.color.brand_primary'))
+          .fontColor(Color.White)
           .enabled(this.canSave())
           .onClick(() => this.doSave())
       }

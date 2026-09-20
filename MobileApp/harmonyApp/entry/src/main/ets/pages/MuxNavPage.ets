@@ -321,6 +321,7 @@ export struct MuxNavPage {
       Row() {
         Text('✕')
           .fontSize(18)
+          .fontColor('#182431')
           .width(36)
           .height(36)
           .textAlign(TextAlign.Center)
@@ -328,6 +329,7 @@ export struct MuxNavPage {
         Text('导航')
           .fontSize(18)
           .fontWeight(FontWeight.Medium)
+          .fontColor('#182431')
           .layoutWeight(1)
           .textAlign(TextAlign.Center)
         Blank()

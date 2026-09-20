@@ -1,5 +1,8 @@
 import { ServerConfig } from '../core/TermirrorCore';
 
+const PAGE_TEXT_COLOR: string = '#182431';
+const PAGE_BACKGROUND_COLOR: string = '#F5F6F8';
+
 /**
  * 服务器列表页，对齐蓝本 App.kt 的 ServerListScreen + Header + ServerRow：
  * banner 图 + “服务器列表”标题 + 圆形主色加号按钮；Card 列表行；底部“网络诊断”入口。
@@ -66,7 +69,7 @@ export struct ServerListPage {
   GearIcon() {
     SymbolGlyph($r('sys.symbol.gearshape'))
       .fontSize(24)
-      .fontColor([$r('sys.color.ohos_id_color_primary')])
+      .fontColor([$r('app.color.brand_primary')])
   }
 
   build() {
@@ -83,6 +86,7 @@ export struct ServerListPage {
               .align(Alignment.Start)
             Text('服务器列表')
               .fontSize(14)
+              .fontColor(PAGE_TEXT_COLOR)
           }
           .alignItems(HorizontalAlign.Start)
           .layoutWeight(1)
@@ -95,7 +99,7 @@ export struct ServerListPage {
           .width(42)
           .height(42)
           .borderRadius(21)
-          .backgroundColor($r('sys.color.ohos_id_color_primary'))
+          .backgroundColor($r('app.color.brand_primary'))
           .onClick(() => this.onAdd())
         }
         .width('100%')
@@ -110,6 +114,7 @@ export struct ServerListPage {
                     Text(server.name.length > 0 ? server.name : server.host)
                       .fontSize(16)
                       .fontWeight(FontWeight.Medium)
+                      .fontColor(PAGE_TEXT_COLOR)
                     Text(this.summaryOf(server))
                       .fontSize(12)
                       .fontColor('#66182431')
@@ -126,7 +131,7 @@ export struct ServerListPage {
                 }
                 .width('100%')
                 .padding({ left: 16, top: 16, right: 10, bottom: 16 })
-                .backgroundColor($r('sys.color.ohos_id_color_card_bg'))
+                .backgroundColor(Color.White)
                 .borderRadius(12)
 
                 // 列表项之间分隔线（最后一项不画）
@@ -154,7 +159,7 @@ export struct ServerListPage {
         Row() {
           Button('网络诊断')
             .backgroundColor(Color.Transparent)
-            .fontColor($r('sys.color.ohos_id_color_primary'))
+            .fontColor($r('app.color.brand_primary'))
             .onClick(() => this.onOpenLocal())
 
           Blank()
@@ -174,6 +179,7 @@ export struct ServerListPage {
     }
     .width('100%')
     .height('100%')
+    .backgroundColor(PAGE_BACKGROUND_COLOR)
     .padding(16)
   }
 }
