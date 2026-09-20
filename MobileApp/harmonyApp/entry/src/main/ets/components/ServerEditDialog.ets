@@ -2,6 +2,9 @@ import { ServerConfig } from '../core/TermirrorCore';
 
 /** 输入框左侧标签统一宽度（vp），保证所有编辑框左缘对齐。 */
 const LABEL_WIDTH: number = 48;
+const DIALOG_TEXT_COLOR: string = '#182431';
+const DIALOG_SECONDARY_TEXT_COLOR: string = '#99182431';
+const INPUT_BACKGROUND_COLOR: string = '#F5F6F8';
 
 /**
  * 服务器新增/编辑弹窗，对齐蓝本 App.kt 的 ServerDialog：
@@ -54,6 +57,7 @@ export struct ServerEditDialog {
       Text(this.server === null ? '新增服务器' : '编辑服务器')
         .fontSize(18)
         .fontWeight(FontWeight.Medium)
+        .fontColor(DIALOG_TEXT_COLOR)
 
       Scroll() {
         Column({ space: 8 }) {
@@ -61,10 +65,13 @@ export struct ServerEditDialog {
           Row() {
             Text('名称')
               .fontSize(14)
-              .fontColor('#66182431')
+              .fontColor(DIALOG_SECONDARY_TEXT_COLOR)
               .width(LABEL_WIDTH)
             TextInput({ placeholder: '名称', text: this.name })
               .layoutWeight(1)
+              .fontColor(DIALOG_TEXT_COLOR)
+              .placeholderColor(DIALOG_SECONDARY_TEXT_COLOR)
+              .backgroundColor(INPUT_BACKGROUND_COLOR)
               .onChange((value: string) => this.name = value)
           }
           .width('100%')
@@ -72,10 +79,13 @@ export struct ServerEditDialog {
           Row() {
             Text('地址')
               .fontSize(14)
-              .fontColor('#66182431')
+              .fontColor(DIALOG_SECONDARY_TEXT_COLOR)
               .width(LABEL_WIDTH)
             TextInput({ placeholder: '地址', text: this.host })
               .layoutWeight(1)
+              .fontColor(DIALOG_TEXT_COLOR)
+              .placeholderColor(DIALOG_SECONDARY_TEXT_COLOR)
+              .backgroundColor(INPUT_BACKGROUND_COLOR)
               .onChange((value: string) => this.host = value)
           }
           .width('100%')
@@ -83,10 +93,13 @@ export struct ServerEditDialog {
           Row() {
             Text('端口')
               .fontSize(14)
-              .fontColor('#66182431')
+              .fontColor(DIALOG_SECONDARY_TEXT_COLOR)
               .width(LABEL_WIDTH)
             TextInput({ placeholder: '端口', text: this.port })
               .layoutWeight(1)
+              .fontColor(DIALOG_TEXT_COLOR)
+              .placeholderColor(DIALOG_SECONDARY_TEXT_COLOR)
+              .backgroundColor(INPUT_BACKGROUND_COLOR)
               .type(InputType.Number)
               .onChange((value: string) => {
                 // 仅保留数字，对齐蓝本的端口过滤逻辑
@@ -99,10 +112,13 @@ export struct ServerEditDialog {
           Row() {
             Text('用户')
               .fontSize(14)
-              .fontColor('#66182431')
+              .fontColor(DIALOG_SECONDARY_TEXT_COLOR)
               .width(LABEL_WIDTH)
             TextInput({ placeholder: '用户', text: this.username })
               .layoutWeight(1)
+              .fontColor(DIALOG_TEXT_COLOR)
+              .placeholderColor(DIALOG_SECONDARY_TEXT_COLOR)
+              .backgroundColor(INPUT_BACKGROUND_COLOR)
               .onChange((value: string) => this.username = value)
           }
           .width('100%')
@@ -110,15 +126,19 @@ export struct ServerEditDialog {
           Row() {
             Text('密码')
               .fontSize(14)
-              .fontColor('#66182431')
+              .fontColor(DIALOG_SECONDARY_TEXT_COLOR)
               .width(LABEL_WIDTH)
             TextInput({ placeholder: '密码', text: this.password })
               .type(this.passwordVisible ? InputType.Normal : InputType.Password)
               .layoutWeight(1)
+              .fontColor(DIALOG_TEXT_COLOR)
+              .placeholderColor(DIALOG_SECONDARY_TEXT_COLOR)
+              .backgroundColor(INPUT_BACKGROUND_COLOR)
               .onChange((value: string) => this.password = value)
             // 密码可见性切换，对齐蓝本的 👁 / 🙈
             Text(this.passwordVisible ? '👁' : '🙈')
               .fontSize(18)
+              .fontColor(DIALOG_TEXT_COLOR)
               .width(40)
               .textAlign(TextAlign.Center)
               .onClick(() => this.passwordVisible = !this.passwordVisible)

@@ -1,5 +1,7 @@
 import { setMuxGroupingMode, GROUPING_WINDOW, GROUPING_DIRECTORY } from '../core/SettingsStore';
 
+const PAGE_TEXT_COLOR: string = '#182431';
+
 /**
  * 设置页面。
  * 目前只承载「MUX 导航标签页分组方式」。
@@ -17,6 +19,7 @@ export struct SettingsPage {
       Row() {
         Text('✕')
           .fontSize(18)
+          .fontColor(PAGE_TEXT_COLOR)
           .width(36)
           .height(36)
           .textAlign(TextAlign.Center)
@@ -24,6 +27,7 @@ export struct SettingsPage {
         Text('设置')
           .fontSize(18)
           .fontWeight(FontWeight.Medium)
+          .fontColor(PAGE_TEXT_COLOR)
           .layoutWeight(1)
           .textAlign(TextAlign.Center)
         Blank()
@@ -54,7 +58,7 @@ export struct SettingsPage {
     Row() {
       Text(label)
         .fontSize(16)
-        .fontColor('#182431')
+        .fontColor(PAGE_TEXT_COLOR)
         .layoutWeight(1)
 
       if (this.groupingMode === value) {
