@@ -60,3 +60,4 @@ xcuserdata/
 /MobileApp/androidApp/app/src/main/jniLibs/
 build/
 .gradle/
+docs/acceptance/evidence/

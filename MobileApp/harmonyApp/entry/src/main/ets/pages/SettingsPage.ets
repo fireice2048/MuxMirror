@@ -64,7 +64,7 @@ export struct SettingsPage {
       if (this.groupingMode === value) {
         Text('✓')
           .fontSize(18)
-          .fontColor($r('sys.color.ohos_id_color_primary'))
+          .fontColor($r('app.color.brand_primary'))
       }
     }
     .width('100%')

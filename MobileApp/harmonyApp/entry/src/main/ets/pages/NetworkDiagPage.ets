@@ -132,7 +132,7 @@ export struct NetworkDiagPage {
           // 黑底页面下默认输入文字对比度不足（人工验收反馈），提亮为终端绿
           .fontColor(TERMINAL_GREEN)
           .backgroundColor('#1A1D24')
-          .placeholderColor('#80808080')
+          .placeholderColor('#8FAF95')
           .onChange((value: string) => this.input = value)
         Column() {
           // 纸飞机发送图标（机头朝右上，青蓝色）：rawfile PNG，只设宽度保持原图比例

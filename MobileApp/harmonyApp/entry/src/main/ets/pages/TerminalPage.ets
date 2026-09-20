@@ -373,7 +373,7 @@ export struct TerminalPage {
               if (this.showNavButton) {
                 Button('MUX...')
                   .backgroundColor(Color.Transparent)
-                  .fontColor($r('app.color.brand_primary'))
+                  .fontColor('#182431')
                   .enabled(this.phase === 'connected')
                   .onClick(() => {
                     if (this.onOpenNav !== undefined) {
@@ -383,7 +383,7 @@ export struct TerminalPage {
               }
               Button('返回')
                 .backgroundColor(Color.Transparent)
-                .fontColor($r('app.color.brand_primary'))
+                .fontColor('#182431')
                 .onClick(() => this.leaveTerminal(() => this.onBack()))
             }
             .width('100%')
